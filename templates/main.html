@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block body %}
+{% for x in data['races'] %}
+<p>{{ x.race }} </p>
+{% endfor %}
+{% endblock %}

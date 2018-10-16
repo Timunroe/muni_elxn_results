@@ -34,5 +34,8 @@ def parse_results(file):
 
     this_object = {'stats': data['statistics'], 'races': new_results}
     # pprint(this_object)
+    with open('data.json', 'w') as outfile:
+        json.dump(this_object, outfile, sort_keys=True, indent=4)
+
     return this_object
 

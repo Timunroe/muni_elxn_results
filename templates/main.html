@@ -1,6 +1,133 @@
 {% extends "layout.html" %}
 {% block body %}
-{% for x in data['races'] %}
-<p>{{ x.race }} </p>
+<h1>Hamilton municipal election results</h1>
+
+{% set mayor_results = data['races'][0]['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+
+<h3>
+    {{'Mayoral race'|upper}}
+</h3>
+<p style="font-family: sans-serif; color: grey; font-size: 14px;">
+    {{data['races'][0]['statistics']['closedPolls']}}/{{data['races'][0]['statistics']['polls']}} polls
+</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: flex-start;">
+    {% for item in mayor_results[0:3] %}
+    <div style="min-width: 200px; margin-right: 15px;">
+        <h4 style="border-bottom: 1px solid grey; padding-bottom: 0.25rem; margin-bottom: 0.5rem; margin-top: 1rem;">
+            {{ loop.index }}. {{ item.choiceName }}
+        </h4>
+        <p style="margin-top: 0; font-family: sans-serif; color: grey;">
+            votes: {{ item.votes }}, {{ item.percentage }}
+        </p>
+    </div>
+    {% endfor %}
+</div>
+
+<p>
+    <i>Also</i>: 
+    {% for item in mayor_results[3:] %}
+        {{ loop.index + 3 }}. {{ item.choiceName }} {{ item.votes }} votes, {{ item.percentage }} |   
+    {% endfor %}
+</p>
+
+<h3>{{'Ward Races'|upper}}</h3>
+{% for ward in data['races'][1:15] %}
+    <h4>{{ ward.race }}</h4>
+    <p style="font-family: sans-serif; color: grey; font-size: 14px;">
+        {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls
+    </p>
+    {% set ward_results = ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+        {% for item in ward_results[:2] %}
+            <p>{{ loop.index }}. {{ item.choiceName }} <span >votes: {{ item.votes }}, {{ item.percentage }}</span></p>
+        {% endfor %}
+        {% if ward_results|count > 2 %}
+            <p>Also: 
+                {% for item in ward_results[2:] %}
+                {{ loop.index + 2 }}. {{ item.choiceName }} {{ item.votes }} votes, {{ item.percentage }} |   
+                {% endfor %}
+            </p>
+        {% endif %}
 {% endfor %}
+
+<h3>{{'Trustee Races'|upper}}</h3>
+<h4>{{'Public board'|upper}}</h4>
+
+
+{% for trustee in data['races'][16:26] %}
+<p><b>{{ trustee.race|replace('Hamilton-Wentworth District School Board','HWDSB') }}</b></p>
+
+{% set trustee_results = trustee['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+        {% for item in trustee_results[:2] %}
+            <p>{{ loop.index }}.  {{ item.choiceName }} 
+            {% if trustee.results.isAcclaimed %}
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span>
+            {% else %}    
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">votes: {{ item.votes }}, {{ item.percentage }}</span>
+            {% endif %} 
+            
+            </p>
+        {% endfor %}
+        {% if trustee_results|count > 2 %}
+            <p><i>Also</i>: 
+                {% for item in trustee_results[2:] %}
+                {{ loop.index + 2 }}. {{ item.choiceName }} <span style="font-family: sans-serif; color: grey; font-size: 14px;">{{ item.votes }} votes, {{ item.percentage }}</span> |   
+                {% endfor %}
+            </p>
+        {% endif %}
+
+{% endfor %}
+
+
+<h4>{{'Catholic board'|upper}}</h4>
+{% for trustee in data['races'][27:35] %}
+
+<p>{{ trustee.race|replace('Hamilton-Wentworth Catholic District School Board','HWCDSB') }} </p>
+
+{% set trustee_results = trustee['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+        {% for item in trustee_results[:2] %}
+            <p>{{ loop.index }}.  {{ item.choiceName }} 
+            {% if trustee.results.isAcclaimed %}
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span>
+            {% else %}    
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">votes: {{ item.votes }}, {{ item.percentage }}</span>
+            {% endif %} 
+            
+            </p>
+        {% endfor %}
+        {% if trustee_results|count > 2 %}
+            <p><i>Also</i>: 
+                {% for item in trustee_results[2:] %}
+                {{ loop.index + 2 }}. {{ item.choiceName }} <span style="font-family: sans-serif; color: grey; font-size: 14px;">{{ item.votes }} votes, {{ item.percentage }}</span> |   
+                {% endfor %}
+            </p>
+        {% endif %}
+
+
+
+{% endfor %}
+
+<h4>{{'Other'|upper}}</h4>
+{% for trustee in data['races'][-2:] %}
+<p>{{ trustee.race }} </p>
+
+{% set trustee_results = trustee['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+        {% for item in trustee_results[:2] %}
+            <p>{{ loop.index }}.  {{ item.choiceName }} 
+            {% if trustee.results.isAcclaimed %}
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span>
+            {% else %}    
+                <span style="font-family: sans-serif; color: grey; font-size: 14px;">votes: {{ item.votes }}, {{ item.percentage }}</span>
+            {% endif %} 
+            
+            </p>
+        {% endfor %}
+        {% if trustee_results|count > 2 %}
+            <p><i>Also</i>: 
+                {% for item in trustee_results[2:] %}
+                {{ loop.index + 2 }}. {{ item.choiceName }} <span style="font-family: sans-serif; color: grey; font-size: 14px;">{{ item.votes }} votes, {{ item.percentage }}</span> |   
+                {% endfor %}
+            </p>
+        {% endif %}
+{% endfor %}
+
 {% endblock %}

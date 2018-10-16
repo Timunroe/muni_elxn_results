@@ -2,3 +2,5 @@
 .pdf
 Pipfile
 Pipfile.lock
+docs
+.DS_Store

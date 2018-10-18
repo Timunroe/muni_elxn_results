@@ -1,9 +1,9 @@
 from flask import Flask, render_template
-import utils
+import app_utils
 
 app = Flask(__name__)
 
-data = utils.parse_results('arearesults.json')
+data = app_utils.parse_results('arearesults.json')
 
 @app.route("/")
 def main():

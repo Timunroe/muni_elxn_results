@@ -1,4 +1,4 @@
-from jinja2 import Environment
+from jinja2 import Environment, FileSystemLoader
 import requests
 import boto3
 from string import Template
@@ -6,12 +6,14 @@ import json
 import htmlmin
 import io
 import random
+import data_templates as tmpl
+import app_helpers
 
 
 def put_S3(filename, filepath):
+    print("++++++++++++\nNow in Put S3 module ...")
     s3_bucket = 'picabot'
     s3_folder = 'pagejs'
-    # print("++++++++++++\nNow in Put S3 module ...")
     s3 = boto3.resource('s3')
     data = open(filepath + '/' + filename, 'rb')
     s3.Bucket(s3_bucket).put_object(Key=s3_folder + filename, Body=data, CacheControl="max-age=600")
@@ -47,22 +49,8 @@ def fetch_css(filename, filepath):
     return css
 
 
-def build_template(db):
-    print("Building template for DNN")
-    # template_data = {"posts": model.get_lineup()}
-    html = Environment().from_string(tmpl.core_template).render(data=db)
-    html_minified = minify_html(html)
-    css = fetch.fetch_css()
-    script = Template(tmpl.script_template).substitute(css=css, minified=html_minified)
-    script_name = f"{cfg.config['project_name']}_{cfg.config['name']}.js"
-    save_file_overwrite(script, script_name)
-    page = Template(tmpl.page_template).substitute(css=css, core=html)
-    page_name = f"{cfg.config['project_name']}_{cfg.config['name']}_preview.html"
-    save_file_overwrite(page, page_name)
-    pass
-
-
 def minify_html(s_html):
+    print("++++++++++\nNow in minify_html module ...")
     # returns string of minified html
     return htmlmin.minify(s_html, remove_comments=True, remove_empty_space=True)
 
@@ -76,13 +64,17 @@ def save_file_overwrite(s_contents, s_name):
     return
 
 
-
-
-
-
-
-
-
-
-
-
+def build_template(city):
+    # NEED TO CREATE BUILD DIRECTORY IF IT DOESN'T EXIST!!!
+    print("Building template for DNN")
+    # using Jinja2 string was fun, but let's get back to includes and other good stuff
+    # html = Environment().from_string(tmpl.core_template).render(data=template_data)
+    data = app_helpers.get_input(app_helpers.files_saved[city])
+    j2_env = Environment(loader=FileSystemLoader('templates'), trim_blocks=True)
+    html = j2_env.get_template(f'ext_{city}.html').render(data=data)
+    html_minified = minify_html(html)
+    css = fetch_css()
+    script = Template(tmpl.script_template).substitute(css=css, minified=html_minified)
+    script_name = f"elxn_results_{city}.js"
+    save_file_overwrite(script, script_name)
+    return script_name

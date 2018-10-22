@@ -1,7 +1,22 @@
 import json
 import datetime
 import app_utils
-from pprint import pprint
+
+files = {
+    'ham': 'arearesults.json',
+    'burl': 'burl_arearesults.json'
+}
+files_saved = {
+    'ham': './saved_results/data_hamilton.json',
+    'burl': './saved_results/data_burlington.json'
+}
+apis = {
+    'ham': 'https://www.hamilton.ca/municipal-election/media/arearesults.json',
+    'burl': 'https://www.burlington.ca/en/elections/results/data/arearesults.json'
+}
+# SWITCH!
+source = apis
+# SWITCH!
 
 
 def get_data(input, city):
@@ -25,13 +40,15 @@ def output(dic, city):
     suffix = f'{now.hour}{now.minute}'
     with open(f'./parsed_results/data_{city}_{suffix}.json', 'w') as outfile:
         json.dump(dic, outfile, sort_keys=True, indent=4)
+    with open(f'./saved_results/data_{city}.json', 'w') as outfile:
+        json.dump(dic, outfile, sort_keys=True, indent=4)
 
 
 def parse_results(input_json):
     new_results = []
     temp = input_json['areaResults']
     for item in temp:
-        for k,v in item.items():
+        for k, v in item.items():
             new_dict = {}
             new_dict['id'] = k
             new_dict['statistics'] = v['statistics']

@@ -26,7 +26,7 @@
                         "isWinner": 0,
                         "partyBreakdown": [],
                         "percentage": "0%",
-                        "votes": 2
+                        "votes": 0
                     },
                     {
                         "choiceName": "Paul FROMM",
@@ -136,7 +136,7 @@
                         "isWinner": 0,
                         "partyBreakdown": [],
                         "percentage": "0%",
-                        "votes": 1
+                        "votes": 0
                     },
                     {
                         "choiceName": "Ricky TAVARES",
@@ -173,11 +173,11 @@
                     }
                 ],
                 "contestName": "Mayor",
-                "eligibleVoters": 0,
+                "eligibleVoters": 361212,
                 "id": "1",
                 "isAcclaimed": false,
                 "sort": 1,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -199,12 +199,12 @@
                         "tabulators": 30
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 361212,
                 "polls": 222,
                 "startedPolls": 0,
                 "tabulators": 252,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -358,11 +358,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 1",
-                "eligibleVoters": 0,
+                "eligibleVoters": 21034,
                 "id": "2",
                 "isAcclaimed": false,
                 "sort": 2,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -384,12 +384,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 21034,
                 "polls": 16,
                 "startedPolls": 0,
                 "tabulators": 18,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -488,11 +488,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 2",
-                "eligibleVoters": 0,
+                "eligibleVoters": 19455,
                 "id": "3",
                 "isAcclaimed": false,
                 "sort": 3,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -514,12 +514,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 19455,
                 "polls": 15,
                 "startedPolls": 0,
                 "tabulators": 17,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -673,11 +673,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 3",
-                "eligibleVoters": 0,
+                "eligibleVoters": 25103,
                 "id": "4",
                 "isAcclaimed": false,
                 "sort": 4,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -699,12 +699,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25103,
                 "polls": 20,
                 "startedPolls": 0,
                 "tabulators": 22,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -737,11 +737,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 4",
-                "eligibleVoters": 0,
+                "eligibleVoters": 25277,
                 "id": "5",
                 "isAcclaimed": false,
                 "sort": 5,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -763,12 +763,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25277,
                 "polls": 15,
                 "startedPolls": 0,
                 "tabulators": 17,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -812,11 +812,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 5",
-                "eligibleVoters": 0,
+                "eligibleVoters": 27561,
                 "id": "6",
                 "isAcclaimed": false,
                 "sort": 6,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -838,12 +838,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 27561,
                 "polls": 17,
                 "startedPolls": 0,
                 "tabulators": 19,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -887,11 +887,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 6",
-                "eligibleVoters": 0,
+                "eligibleVoters": 25794,
                 "id": "7",
                 "isAcclaimed": false,
                 "sort": 7,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -913,12 +913,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25794,
                 "polls": 13,
                 "startedPolls": 0,
                 "tabulators": 15,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1050,11 +1050,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 7",
-                "eligibleVoters": 0,
+                "eligibleVoters": 31483,
                 "id": "8",
                 "isAcclaimed": false,
                 "sort": 8,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1076,12 +1076,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 31483,
                 "polls": 18,
                 "startedPolls": 0,
                 "tabulators": 20,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1158,11 +1158,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 8",
-                "eligibleVoters": 0,
+                "eligibleVoters": 21873,
                 "id": "9",
                 "isAcclaimed": false,
                 "sort": 9,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1184,12 +1184,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 21873,
                 "polls": 13,
                 "startedPolls": 0,
                 "tabulators": 15,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1255,11 +1255,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 9",
-                "eligibleVoters": 0,
+                "eligibleVoters": 19473,
                 "id": "10",
                 "isAcclaimed": false,
                 "sort": 10,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1281,12 +1281,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 19473,
                 "polls": 11,
                 "startedPolls": 0,
                 "tabulators": 13,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1341,11 +1341,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 10",
-                "eligibleVoters": 0,
+                "eligibleVoters": 27018,
                 "id": "11",
                 "isAcclaimed": false,
                 "sort": 11,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1367,12 +1367,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 27018,
                 "polls": 15,
                 "startedPolls": 0,
                 "tabulators": 17,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1405,11 +1405,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 11",
-                "eligibleVoters": 0,
+                "eligibleVoters": 17800,
                 "id": "12",
                 "isAcclaimed": false,
                 "sort": 12,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1431,12 +1431,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 17800,
                 "polls": 6,
                 "startedPolls": 0,
                 "tabulators": 8,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1502,11 +1502,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 12",
-                "eligibleVoters": 0,
+                "eligibleVoters": 29708,
                 "id": "13",
                 "isAcclaimed": false,
                 "sort": 13,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1528,12 +1528,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 29708,
                 "polls": 16,
                 "startedPolls": 0,
                 "tabulators": 18,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1621,11 +1621,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 13",
-                "eligibleVoters": 0,
+                "eligibleVoters": 26614,
                 "id": "14",
                 "isAcclaimed": false,
                 "sort": 14,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1647,12 +1647,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 26614,
                 "polls": 19,
                 "startedPolls": 0,
                 "tabulators": 21,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1718,11 +1718,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 14",
-                "eligibleVoters": 0,
+                "eligibleVoters": 22540,
                 "id": "15",
                 "isAcclaimed": false,
                 "sort": 15,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1744,12 +1744,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 22540,
                 "polls": 18,
                 "startedPolls": 0,
                 "tabulators": 20,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1782,11 +1782,11 @@
                     }
                 ],
                 "contestName": "Councillor - Ward 15",
-                "eligibleVoters": 0,
+                "eligibleVoters": 20479,
                 "id": "16",
                 "isAcclaimed": false,
                 "sort": 16,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1808,12 +1808,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 20479,
                 "polls": 10,
                 "startedPolls": 0,
                 "tabulators": 12,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1846,11 +1846,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Wards 1 & 2",
-                "eligibleVoters": 0,
+                "eligibleVoters": 34166,
                 "id": "17",
                 "isAcclaimed": false,
                 "sort": 17,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1872,12 +1872,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 40489,
                 "polls": 31,
                 "startedPolls": 0,
                 "tabulators": 35,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -1954,11 +1954,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 3",
-                "eligibleVoters": 0,
+                "eligibleVoters": 19164,
                 "id": "18",
                 "isAcclaimed": false,
                 "sort": 18,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -1980,12 +1980,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25103,
                 "polls": 20,
                 "startedPolls": 0,
                 "tabulators": 22,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2082,11 +2082,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 5",
-                "eligibleVoters": 0,
+                "eligibleVoters": 20061,
                 "id": "20",
                 "isAcclaimed": false,
                 "sort": 20,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2108,12 +2108,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 27561,
                 "polls": 17,
                 "startedPolls": 0,
                 "tabulators": 19,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2157,11 +2157,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 6",
-                "eligibleVoters": 0,
+                "eligibleVoters": 17902,
                 "id": "21",
                 "isAcclaimed": false,
                 "sort": 21,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2183,12 +2183,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25794,
                 "polls": 13,
                 "startedPolls": 0,
                 "tabulators": 15,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2307,11 +2307,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Wards 8 & 14",
-                "eligibleVoters": 0,
+                "eligibleVoters": 30114,
                 "id": "23",
                 "isAcclaimed": false,
                 "sort": 23,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2333,12 +2333,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 44413,
                 "polls": 31,
                 "startedPolls": 0,
                 "tabulators": 35,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2371,11 +2371,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 9 & 10",
-                "eligibleVoters": 0,
+                "eligibleVoters": 29158,
                 "id": "24",
                 "isAcclaimed": false,
                 "sort": 24,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2397,12 +2397,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 46491,
                 "polls": 26,
                 "startedPolls": 0,
                 "tabulators": 30,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2446,11 +2446,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 11 & 12",
-                "eligibleVoters": 0,
+                "eligibleVoters": 35688,
                 "id": "25",
                 "isAcclaimed": false,
                 "sort": 25,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2472,12 +2472,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 47508,
                 "polls": 22,
                 "startedPolls": 0,
                 "tabulators": 26,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2543,11 +2543,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 13",
-                "eligibleVoters": 0,
+                "eligibleVoters": 22237,
                 "id": "26",
                 "isAcclaimed": false,
                 "sort": 26,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2569,12 +2569,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 26614,
                 "polls": 19,
                 "startedPolls": 0,
                 "tabulators": 21,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2607,11 +2607,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 15",
-                "eligibleVoters": 0,
+                "eligibleVoters": 16683,
                 "id": "27",
                 "isAcclaimed": false,
                 "sort": 27,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2633,12 +2633,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 20479,
                 "polls": 10,
                 "startedPolls": 0,
                 "tabulators": 12,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2777,11 +2777,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 5",
-                "eligibleVoters": 0,
+                "eligibleVoters": 7242,
                 "id": "30",
                 "isAcclaimed": false,
                 "sort": 30,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2803,12 +2803,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 27561,
                 "polls": 17,
                 "startedPolls": 0,
                 "tabulators": 19,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2852,11 +2852,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 6",
-                "eligibleVoters": 0,
+                "eligibleVoters": 7547,
                 "id": "31",
                 "isAcclaimed": false,
                 "sort": 31,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2878,12 +2878,12 @@
                         "tabulators": 2
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 25794,
                 "polls": 13,
                 "startedPolls": 0,
                 "tabulators": 15,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -2969,11 +2969,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 8 & 14",
-                "eligibleVoters": 0,
+                "eligibleVoters": 13744,
                 "id": "33",
                 "isAcclaimed": false,
                 "sort": 33,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -2995,12 +2995,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 44413,
                 "polls": 31,
                 "startedPolls": 0,
                 "tabulators": 35,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -3055,11 +3055,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 9 & 11",
-                "eligibleVoters": 0,
+                "eligibleVoters": 10293,
                 "id": "34",
                 "isAcclaimed": false,
                 "sort": 34,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -3081,12 +3081,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 37273,
                 "polls": 17,
                 "startedPolls": 0,
                 "tabulators": 21,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -3183,11 +3183,11 @@
                     }
                 ],
                 "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 12 & 13",
-                "eligibleVoters": 0,
+                "eligibleVoters": 11166,
                 "id": "36",
                 "isAcclaimed": false,
                 "sort": 36,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -3209,12 +3209,12 @@
                         "tabulators": 4
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 56322,
                 "polls": 35,
                 "startedPolls": 0,
                 "tabulators": 39,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -3247,11 +3247,11 @@
                     }
                 ],
                 "contestName": "Trustee, Conseil scolaire Viamonde\u00a0- French Public",
-                "eligibleVoters": 0,
+                "eligibleVoters": 801,
                 "id": "37",
                 "isAcclaimed": false,
                 "sort": 37,
-                "turnout": "0%",
+                "turnout": "0.00%",
                 "voteFor": 1
             },
             "statistics": {
@@ -3273,12 +3273,12 @@
                         "tabulators": 30
                     }
                 ],
-                "eligibleVoters": 0,
+                "eligibleVoters": 361212,
                 "polls": 222,
                 "startedPolls": 0,
                 "tabulators": 252,
-                "turnout": "0%",
-                "turnout2": "0%"
+                "turnout": "0.00%",
+                "turnout2": "0.00%"
             }
         },
         {
@@ -3350,17 +3350,17 @@
                 "tabulators": 30
             }
         ],
-        "eligibleVoters": 0,
+        "eligibleVoters": 361212,
         "globBallotCast": 0,
         "globClosedPolls": 0,
         "globClosedTabulators": 0,
         "globPolls": 222,
         "globStartedPolls": 0,
         "globTabulators": 252,
-        "globTurnout": "0%",
+        "globTurnout": "0.00%",
         "official": "2518",
         "partyStats": [],
         "projectName": "City of Hamilton Municipal Election 2018",
-        "timeStamp": "2018-09-13 13:12:01"
+        "timeStamp": "2018-09-25 10:39:38"
     }
 }

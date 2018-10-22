@@ -9,6 +9,7 @@ requests = "*"
 "flake8" = "*"
 "boto3" = "*"
 htmlmin = "*"
+boto = "*"
 
 [dev-packages]
 

@@ -3,12 +3,32 @@ from string import Template
 import htmlmin
 import io
 import data_templates as tmpl
-import fetch
-import model
-import config as cfg
+import app_fetch
+import app_model
 
-# Put <script src="https://picabot.s3.amazonaws.com/pagejs/elxn_results_spec.js"></script> in DNN footer
-# put <div class="pica-results"></div> in DNN body
+
+def parse_results(file, city="hamilton"):
+    with open(file, encoding='utf-8-sig') as f:
+        data = json.load(f)
+
+    new_results = []
+    temp = data['areaResults']
+
+    for item in temp:
+        for k,v in item.items():
+            new_dict = {}
+            new_dict['id'] = k
+            new_dict['statistics'] = v['statistics']
+            new_dict['results'] = v['contestResults'][0]
+            new_dict['race'] = new_dict['results']['contestName']
+            new_results.append(new_dict)
+
+    this_object = {'stats': data['statistics'], 'races': new_results}
+    # pprint(this_object)
+    with open(f'data_{city}.json', 'w') as outfile:
+        json.dump(this_object, outfile, sort_keys=True, indent=4)
+
+    return this_object
 
 
 def minify_html(s_html):

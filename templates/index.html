@@ -1,0 +1,244 @@
+{% extends "layout.html" %}
+{% block body %}
+
+{% macro show_candidates(ward) %}
+    <section class=" bb b--gray pt2 pb2 hamont-wards" id="">
+        <div class="pb2 ttu">{{ ward.race }}</div>
+        {% set ward_leaders = ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+        <button class="pica-accordion fw6"> 
+            {% if ward_leaders[0]['votes'] > 0 %}
+            {{ ward_leaders[0]['choiceName'] }} leading,
+            {% endif %}
+            {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
+        <div class="pica-panel">
+            <table class="collapse ba br2 b--black-10 pv2 w-100">
+                <tbody>
+                    <tr class="striped--light-gray">
+                        <th class="tl f6 fw6 ttu pv2 ph3">Name</th>
+                        <th class="tl f6 fw6 ttu pv2 ph3">Votes</th>
+                        <th class="tl f6 fw6 ttu pv2 ph3">%</th>
+                    </tr>
+                    {% for item in ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+                    <tr class="striped--light-gray">
+                        <td class="pv2 ph3">{{ loop.index }}. {{ item.choiceName }}</td>
+                        <td class="pv2 ph3">{{ item.votes }}</td>
+                        <td class="pv2 ph3">{{ item.percentage }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endmacro %}
+
+{% macro show_trustees(ward) %}
+    {% set leaders = ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
+    <section class="bb b--gray pt2 pb2 hamont-wards" id="">
+        <div class="pb2 ttu">{{ ward.race|replace('District School Board','DSB') | replace("Hamilton-Wentworth ","HW") | replace("Catholic ","C") }}</div>
+        <button class="pica-accordion fw6">
+            {% if ward.results.isAcclaimed %}
+            {{ leaders[0]['choiceName'] }} <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span></button>
+            {% elif leaders[0]['votes'] > 0 %}
+            {{ leaders[0]['choiceName'] }} leading, {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
+            {% else %}
+            {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
+            {% endif %}
+        <div class="pica-panel">
+            <table class="collapse ba br2 b--black-10 pv2 w-100">
+                <tbody>
+                    <tr class="striped--light-gray">
+                        <th class="tl f6 fw6 ttu pv2 ph3">Name</th>
+                        <th class="tl f6 fw6 ttu pv2 ph3">Votes</th>
+                        <th class="tl f6 fw6 ttu pv2 ph3">%</th>
+                    </tr>
+                    {% for item in leaders %}
+                    <tr class="striped--light-gray">
+                        <td class="pv2 ph3">{{ loop.index }}. {{ item.choiceName }}
+                            {% if ward.results.isAcclaimed %}
+                                <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span></td>
+                            {% else %}
+                                </td>
+                                <td class="pv2 ph3">{{ item.votes }}</td>
+                                <td class="pv2 ph3">{{ item.percentage }}</td>
+                            {% endif %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endmacro %}
+
+<!-- controls -->
+<section class="sans-serif" style="max-width: 800px; min-width: 385px; margin: 0 auto;">
+    <form action="/" method="post">
+        <p>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-red" value="fetch_cp">Fetch HamOnt Data</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green" value="deploy_cp">Update HamOnt</button>
+            ||
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-orange" value="fetch_manual">Fetch BurlON Data</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-pink" value="deploy_manual">Update BurlON</button>
+            ||
+            <a class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" href="https://www.thespec.com/news-story/8654956-election-results/?previewkey=eaaaabj%2bfjhic5%2foe4xhaobrz2sozhqc5r4euttg9ivhjwhb" target="_blank">DNN Preview</a>
+        </p>
+    </form>
+</section>
+
+ 
+<section id="stats_header" style="max-width: 800px; min-width: 385px; margin: 0 auto;" class="">
+    <h2>HAMILTON election results</h2> 
+    <p style="margin-bottom: 0.35rem; font-size: 1.1rem;"></p>
+    <!--TABS START-->
+    <section class="pica-tabs">
+        <!--TABS CONTROLS START-->
+        <div class="pica-tab-controls">
+            <div class="pica-tab-control" data-tab="1" data-tab-default="yes">Hamilton Mayor</div>
+            <div class="pica-tab-control" data-tab="2">Hamilton Wards</div>
+            <div class="pica-tab-control" data-tab="3">Trustees</div>
+        </div>
+        <!--TABS CONTROLS END-->
+        <!--TABS PANELS START-->
+        <div class="pica-tab-panels pica-sans-serif">
+            <div class="pica-tab-panel" data-tab="1">
+                <!-- HAMILTON MAYOR RACE -->
+                {% for ward in data['ham']['races'][0:1] %}
+                    {{ show_candidates(ward) }}
+                {% endfor %}
+            </div>
+            <div class="pica-tab-panel" data-tab="2">
+                <!-- HAMILTON WARD RACES -->
+                {% for ward in data['ham']['races'][1:16] %}
+                    {{ show_candidates(ward) }}
+                {% endfor %}
+            </div>
+            <div class="pica-tab-panel" data-tab="3">
+                <!-- HAMILTON PUBLIC BOARD RACES -->
+                <h3>Public board</h3>
+                {% for ward in data['ham']['races'][16:27] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+                <!-- HAMILTON CATHOLIC BOARD RACES -->
+                <h3>Catholic board</h3>
+                {% for ward in data['ham']['races'][27:36] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+                <!-- HAMILTON OTHER BOARD RACES -->
+                <h3>French boards</h3>
+                {% for ward in data['ham']['races'][-2:] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+            </div>
+        </div>
+        <!--TABS PANELS END-->
+    </section>
+    <!--TABS END-->
+</section>
+<!--STATS HEADER END-->
+
+<section id="stats_header" style="max-width: 800px; min-width: 385px; margin: 0 auto;" class="">
+    <h2>BURLINGTON election results</h2>  
+    <p style="margin-bottom: 0.35rem; font-size: 1.1rem;"></p>
+    <!--TABS START-->
+    <section class="pica-tabs">
+        <!--TABS CONTROLS START-->
+        <div class="pica-tab-controls">
+            <div class="pica-tab-control" data-tab="1" data-tab-default="yes">Burlington Mayor</div>
+            <div class="pica-tab-control" data-tab="2">Burlington Wards</div>
+            <div class="pica-tab-control" data-tab="3">Trustees</div>
+        </div>
+        <!--TABS CONTROLS END-->
+        <!--TABS PANELS START-->
+        <div class="pica-tab-panels pica-sans-serif">
+            <div class="pica-tab-panel" data-tab="1">
+                <!-- BURLINGTON MAYOR RACE -->
+                {% for ward in data['burl']['races'][0:1] %}
+                    {{ show_candidates(ward) }}
+                {% endfor %}
+            </div>
+            <div class="pica-tab-panel" data-tab="2">
+                <!-- BURLINGTON WARD RACES -->
+                {% for ward in data['burl']['races'][1:7] %}
+                    {{ show_candidates(ward) }}
+                {% endfor %}
+            </div>
+            <div class="pica-tab-panel" data-tab="3">             
+                <!-- BURLINGTON PUBLIC BOARD RACES -->
+                <h3>Public board</h3>
+                {% for ward in data['burl']['races'][8:12] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+                <!-- BURLINGTON CATHOLIC BOARD RACES -->
+                <h3>Catholic board</h3>
+                {% for ward in data['burl']['races'][12:13] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+                <!-- BURLINGTON OTHER BOARD RACES -->
+                <h3>French boards</h3>
+                {% for ward in data['burl']['races'][-2:] %}
+                    {{ show_trustees(ward) }}
+                {% endfor %}
+            </div>
+        </div>
+        <!--TABS PANELS END-->
+    </section>
+    <!--TABS END-->
+</section>
+<!--STATS HEADER END-->
+
+
+<!-- tabs and accordion javascript -->
+<script>
+    function pica_tabs_handler(e) {
+        // deal with tab-controls
+        var tab_id = this.getAttribute('data-tab');
+        // reset all tab controls of specific block to default class 
+        var tab_controls = this.parentNode.querySelectorAll('.pica-tab-control');
+        Array.prototype.forEach.call(tab_controls, function(el, i) {
+        el.className = 'pica-tab-control'; // set tab controls to base class
+        });
+        // set class of selected tab control in specific block to active
+        this.className = 'pica-tab-control active';
+        // deal with tab-panels
+        // select all panels in the data-block with this data-tab number
+        var panel_block = this.parentNode.parentNode.querySelector('.pica-tab-panels');
+        // hide them
+        Array.prototype.forEach.call(panel_block.querySelectorAll('.pica-tab-panel'), function(el, i) {
+        el.style.display = 'none'; 
+        });
+        // unhide the panel whose data-tab number is same as clicked control
+        var this_panel = panel_block.querySelector('[data-tab="' + tab_id + '"]');
+        // var this_panel = these_panels.querySelector('[data-tab-panel="' + tab_id + '"]');
+        this_panel.style.display = 'block';
+    }
+    
+    // start by applying listeners to tab controls
+    var tab_controls = document.querySelectorAll('.pica-tab-controls .pica-tab-control');
+    Array.prototype.forEach.call(tab_controls, function(el, i) {
+        el.addEventListener('click', pica_tabs_handler, false);
+    });
+    // select default tab
+    var defaults = document.querySelectorAll('.pica-tab-control[data-tab-default="yes"]')
+    Array.prototype.forEach.call(defaults, function(el, i) {
+        el.click();
+    });
+    
+    var acc = document.getElementsByClassName("pica-accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("pica-active");
+    
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+{% endblock body %}

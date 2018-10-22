@@ -1,26 +1,35 @@
 import json
+import datetime
+import app_utils
 from pprint import pprint
 
 
-def get_input():
+def get_data(input, city):
+    if 'https' in input:
+        temp = app_utils.fetch_data(input)
+    else:
+        temp = get_input(f'./raw_results/{input}')
+    results = parse_results(temp)
+    output(results, city)
+    return results
+
+
+def get_input(file):
     with open(file, encoding='utf-8-sig') as f:
         data = json.load(f)
+    return data
 
-def output(dic):
-    with open('data.json', 'w') as outfile:
+
+def output(dic, city):
+    now = datetime.datetime.now()
+    suffix = f'{now.hour}{now.minute}'
+    with open(f'./parsed_results/data_{city}_{suffix}.json', 'w') as outfile:
         json.dump(dic, outfile, sort_keys=True, indent=4)
-
-data = fetch.fetch_data(cfg.config['api'])
-
-with io.open("cp.db", "w+", encoding='utf8') as file:
-    file.write(json.dumps(db, ensure_ascii=False))
-
 
 
 def parse_results(input_json):
     new_results = []
     temp = input_json['areaResults']
-
     for item in temp:
         for k,v in item.items():
             new_dict = {}
@@ -29,9 +38,7 @@ def parse_results(input_json):
             new_dict['results'] = v['contestResults'][0]
             new_dict['race'] = new_dict['results']['contestName']
             new_results.append(new_dict)
-
     new_dict = {'stats': input_json['statistics'], 'races': new_results}
-    # pprint(new_dict)
     return new_dict
 
 

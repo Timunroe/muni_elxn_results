@@ -1,5 +1,10 @@
+from jinja2 import Environment
 import requests
 import boto3
+from string import Template
+import json
+import htmlmin
+import io
 import random
 
 
@@ -42,7 +47,33 @@ def fetch_css(filename, filepath):
     return css
 
 
+def build_template(db):
+    print("Building template for DNN")
+    # template_data = {"posts": model.get_lineup()}
+    html = Environment().from_string(tmpl.core_template).render(data=db)
+    html_minified = minify_html(html)
+    css = fetch.fetch_css()
+    script = Template(tmpl.script_template).substitute(css=css, minified=html_minified)
+    script_name = f"{cfg.config['project_name']}_{cfg.config['name']}.js"
+    save_file_overwrite(script, script_name)
+    page = Template(tmpl.page_template).substitute(css=css, core=html)
+    page_name = f"{cfg.config['project_name']}_{cfg.config['name']}_preview.html"
+    save_file_overwrite(page, page_name)
+    pass
 
+
+def minify_html(s_html):
+    # returns string of minified html
+    return htmlmin.minify(s_html, remove_comments=True, remove_empty_space=True)
+
+
+def save_file_overwrite(s_contents, s_name):
+    print("Now in save file module")
+    build_directory = 'build'
+    with io.open(f"{build_directory}/{s_name}", "w+", encoding='utf8') as file:
+        file.write(s_contents)
+    print(f"File saved in {build_directory}: {s_name}")
+    return
 
 
 

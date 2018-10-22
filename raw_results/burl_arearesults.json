@@ -1,0 +1,1087 @@
+﻿{
+	"statistics": {
+		"projectName": "City of Burlington 2018",
+		"official": "2402",
+		"timeStamp": "2018-10-16 12:08:32",
+		"eligibleVoters": 0,
+		"globTurnout": "0%",
+		"globBallotCast": 0,
+		"globTabulators": 50,
+		"globClosedTabulators": 0,
+		"globStartedPolls": 0,
+		"globPolls": 28,
+		"globClosedPolls": 0
+	},
+	"areaResults": [
+		{
+			"1": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 50,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 28,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1001",
+						"contestName": "MAYOR",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 1,
+						"choiceResults": [
+							{
+								"id": "1",
+								"choiceName": "Rick GOLDRING",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "2",
+								"choiceName": "Marianne MEED WARD",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "3",
+								"choiceName": "Mike WALLACE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "4",
+								"choiceName": "Greg WOODRUFF",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"2": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 13,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1002",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 1",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 2,
+						"choiceResults": [
+							{
+								"id": "5",
+								"choiceName": "Jason BOELHOUWER",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "6",
+								"choiceName": "Vince FIORITO",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "7",
+								"choiceName": "Kelvin GALBRAITH",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "8",
+								"choiceName": "Arlene IANTOMASI",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "9",
+								"choiceName": "Andrew Paul JORDAN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "10",
+								"choiceName": "Kevin LEE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "11",
+								"choiceName": "Garry MILNE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "12",
+								"choiceName": "Tayler MORIN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "13",
+								"choiceName": "René PAPIN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "14",
+								"choiceName": "Marty STAZ",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "15",
+								"choiceName": "Judy WORSLEY",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"3": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 13,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1003",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 2",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 3,
+						"choiceResults": [
+							{
+								"id": "16",
+								"choiceName": "Kimberly CALDERBANK",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "17",
+								"choiceName": "Michael JONES",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "18",
+								"choiceName": "Lisa KEARNS",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "19",
+								"choiceName": "Gerard SHKUDA",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "20",
+								"choiceName": "Roland TANNER",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "21",
+								"choiceName": "Walter WIEBE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"4": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 13,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1004",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 3",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 4,
+						"choiceResults": [
+							{
+								"id": "22",
+								"choiceName": "Lisa COOPER",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "23",
+								"choiceName": "Darcy HUTZEL",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "24",
+								"choiceName": "Rory NISAN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "25",
+								"choiceName": "Peter RUSIN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "26",
+								"choiceName": "Gareth WILLIAMS",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"5": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 14,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1005",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 4",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 5,
+						"choiceResults": [
+							{
+								"id": "27",
+								"choiceName": "Jack DENNISON",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "28",
+								"choiceName": "Shawna STOLTE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"6": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 14,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1006",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 5",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 6,
+						"choiceResults": [
+							{
+								"id": "29",
+								"choiceName": "Wendy MORAGHAN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "30",
+								"choiceName": "Daniel ROUKEMA",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "31",
+								"choiceName": "Paul SHARMAN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "32",
+								"choiceName": "Mary Alice ST. JAMES",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "33",
+								"choiceName": "Xin Yi ZHANG",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"7": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 13,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1007",
+						"contestName": "CITY AND REGIONAL COUNCILLOR - WARD 6",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 7,
+						"choiceResults": [
+							{
+								"id": "34",
+								"choiceName": "Angelo BENTIVEGNA",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "35",
+								"choiceName": "Blair LANCASTER",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "36",
+								"choiceName": "Kinsey SCHURM",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "37",
+								"choiceName": "Ken WHITE",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"8": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 50,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 28,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1008",
+						"contestName": "REGIONAL CHAIR",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 8,
+						"choiceResults": [
+							{
+								"id": "38",
+								"choiceName": "Gary CARR",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "39",
+								"choiceName": "Anne MARSDEN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"9": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 20,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 12,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1009",
+						"contestName": "HDSB TRUSTEE - WARDS 1 & 2",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 9,
+						"choiceResults": [
+							{
+								"id": "40",
+								"choiceName": "Jason K. BARTLETT",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "41",
+								"choiceName": "Vaani REDDY",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "42",
+								"choiceName": "Leah REYNOLDS",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"10": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 20,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 12,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1010",
+						"contestName": "HDSB TRUSTEE - WARDS 3 & 6",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 10,
+						"choiceResults": [
+							{
+								"id": "43",
+								"choiceName": "Andrea GREBENC",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "44",
+								"choiceName": "Diane MILLER",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"11": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 14,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1011",
+						"contestName": "HDSB TRUSTEE - WARD 4",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 11,
+						"choiceResults": [
+							{
+								"id": "45",
+								"choiceName": "Richelle PAPIN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "46",
+								"choiceName": "Margo SHUTTLEWORTH",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"12": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 14,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 8,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1012",
+						"contestName": "HDSB TRUSTEE - WARD 5",
+						"voteFor": 1,
+						"isAcclaimed": true,
+						"sort": 12,
+						"choiceResults": [
+							{
+								"id": "47",
+								"choiceName": "Amy COLLARD",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 1,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"13": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 50,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 28,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1013",
+						"contestName": "HCDSB TRUSTEE",
+						"voteFor": 3,
+						"isAcclaimed": false,
+						"sort": 13,
+						"choiceResults": [
+							{
+								"id": "48",
+								"choiceName": "Brenda AGNEW",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "49",
+								"choiceName": "Jason CRAWFORD",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "50",
+								"choiceName": "Briana HAMLET",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "51",
+								"choiceName": "Kathleen HAUWERT",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "52",
+								"choiceName": "Vincent IANTOMASI",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "53",
+								"choiceName": "Danielle C. INGRAM",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "54",
+								"choiceName": "Declan KEOGH",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "55",
+								"choiceName": "Maria LOURENCO",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "56",
+								"choiceName": "Joel MACLEOD",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "57",
+								"choiceName": "Benjamin MATHEW",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "58",
+								"choiceName": "Tim O'BRIEN",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "59",
+								"choiceName": "Michelle PERRONE-BONAVITA",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "60",
+								"choiceName": "Jenna STASKOVICH",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"14": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 50,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 28,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1014",
+						"contestName": "TRUSTEE, CONSEIL SCOLAIRE VIAMONDE",
+						"voteFor": 1,
+						"isAcclaimed": false,
+						"sort": 14,
+						"choiceResults": [
+							{
+								"id": "61",
+								"choiceName": "Denis S. FRAWLEY",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							},
+							{
+								"id": "62",
+								"choiceName": "Pierre GIROUARD",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 2,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			},
+			"15": {
+				"statistics": {
+					"eligibleVoters": 0,
+					"turnout": "0%",
+					"turnout2": "0%",
+					"ballotCast": 0,
+					"ballotCast2": 0,
+					"tabulators": 50,
+					"closedTabulators": 0,
+					"startedPolls": 0,
+					"polls": 28,
+					"closedPolls": 0
+				},
+				"contestResults": [
+					{
+						"id": "1015",
+						"contestName": "TRUSTEE, CONSEIL SCOLAIRE CATHOLIQUE MONAVENIR",
+						"voteFor": 1,
+						"isAcclaimed": true,
+						"sort": 15,
+						"choiceResults": [
+							{
+								"id": "63",
+								"choiceName": "Dominique JANSSENS",
+								"votes": 0,
+								"percentage": "0%",
+								"isIncumbent": 0,
+								"isDisabled": 0,
+								"gender": "Unknown",
+								"isWinner": 1,
+								"partyBreakdown": []
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

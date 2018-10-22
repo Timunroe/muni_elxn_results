@@ -73,11 +73,11 @@
 <section class="sans-serif" style="max-width: 800px; min-width: 385px; margin: 0 auto;">
     <form action="/" method="post">
         <p>
-            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-red" value="fetch_cp">Fetch HamOnt Data</button>
-            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green" value="deploy_cp">Update HamOnt</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-orange" value="fetch_ham">Fetch HamOnt Data</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green" value="deploy_ham">Update Spec</button>
             ||
-            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-orange" value="fetch_manual">Fetch BurlON Data</button>
-            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-pink" value="deploy_manual">Update BurlON</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue" value="fetch_burl">Fetch BurlON Data</button>
+            <button type="submit" name="action" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-green" value="deploy_burl">Update Spec</button>
             ||
             <a class="f6 link dim br1 ph3 pv2 mb2 dib white bg-mid-gray" href="https://www.thespec.com/news-story/8654956-election-results/?previewkey=eaaaabj%2bfjhic5%2foe4xhaobrz2sozhqc5r4euttg9ivhjwhb" target="_blank">DNN Preview</a>
         </p>
@@ -101,30 +101,30 @@
         <div class="pica-tab-panels pica-sans-serif">
             <div class="pica-tab-panel" data-tab="1">
                 <!-- HAMILTON MAYOR RACE -->
-                {% for ward in data['ham']['races'][0:1] %}
+                {% for ward in data_ham['races'][0:1] %}
                     {{ show_candidates(ward) }}
                 {% endfor %}
             </div>
             <div class="pica-tab-panel" data-tab="2">
                 <!-- HAMILTON WARD RACES -->
-                {% for ward in data['ham']['races'][1:16] %}
+                {% for ward in data_ham['races'][1:16] %}
                     {{ show_candidates(ward) }}
                 {% endfor %}
             </div>
             <div class="pica-tab-panel" data-tab="3">
                 <!-- HAMILTON PUBLIC BOARD RACES -->
                 <h3>Public board</h3>
-                {% for ward in data['ham']['races'][16:27] %}
+                {% for ward in data_ham['races'][16:27] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
                 <!-- HAMILTON CATHOLIC BOARD RACES -->
                 <h3>Catholic board</h3>
-                {% for ward in data['ham']['races'][27:36] %}
+                {% for ward in data_ham['races'][27:36] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
                 <!-- HAMILTON OTHER BOARD RACES -->
                 <h3>French boards</h3>
-                {% for ward in data['ham']['races'][-2:] %}
+                {% for ward in data_ham['races'][-2:] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
             </div>
@@ -151,30 +151,30 @@
         <div class="pica-tab-panels pica-sans-serif">
             <div class="pica-tab-panel" data-tab="1">
                 <!-- BURLINGTON MAYOR RACE -->
-                {% for ward in data['burl']['races'][0:1] %}
+                {% for ward in data_burl['races'][0:1] %}
                     {{ show_candidates(ward) }}
                 {% endfor %}
             </div>
             <div class="pica-tab-panel" data-tab="2">
                 <!-- BURLINGTON WARD RACES -->
-                {% for ward in data['burl']['races'][1:7] %}
+                {% for ward in data_burl['races'][1:7] %}
                     {{ show_candidates(ward) }}
                 {% endfor %}
             </div>
             <div class="pica-tab-panel" data-tab="3">             
                 <!-- BURLINGTON PUBLIC BOARD RACES -->
                 <h3>Public board</h3>
-                {% for ward in data['burl']['races'][8:12] %}
+                {% for ward in data_burl['races'][8:12] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
                 <!-- BURLINGTON CATHOLIC BOARD RACES -->
                 <h3>Catholic board</h3>
-                {% for ward in data['burl']['races'][12:13] %}
+                {% for ward in data_burl['races'][12:13] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
                 <!-- BURLINGTON OTHER BOARD RACES -->
                 <h3>French boards</h3>
-                {% for ward in data['burl']['races'][-2:] %}
+                {% for ward in data_burl['races'][-2:] %}
                     {{ show_trustees(ward) }}
                 {% endfor %}
             </div>

@@ -12,7 +12,12 @@ files_saved = {
 }
 apis = {
     'ham': 'https://www.hamilton.ca/municipal-election/media/arearesults.json',
-    'burl': 'https://www.burlington.ca/en/elections/results/data/arearesults.json'
+    # 'ham': 'https://www.hamilton.ca/municipal-election/live/data/arearesults.json',
+    'burl': 'https://www.burlington.ca/en/elections/results/data/arearesults.json',
+    'guelph': 'https://vote.guelph.ca/results/data/arearesults.json',
+    'cambridge': 'https://www.cambridge.ca/en/elections/results/data/arearesults.json',
+    'kitchener': 'https://app2.kitchener.ca/electionresults2018/data/arearesults.json',
+    'stcatharines': 'https://www.stcatharines.ca/en/elections/results/data/arearesults.json',    
 }
 # SWITCH!
 source = apis

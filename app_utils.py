@@ -16,7 +16,7 @@ def put_S3(filename, filepath):
     s3_folder = 'pagejs'
     s3 = boto3.resource('s3')
     data = open(filepath + '/' + filename, 'rb')
-    s3.Bucket(s3_bucket).put_object(Key=s3_folder + filename, Body=data, CacheControl="max-age=600")
+    s3.Bucket(s3_bucket).put_object(Key=f'pagejs/{filename}', Body=data, CacheControl="max-age=360")
     return
 
 
@@ -73,8 +73,11 @@ def build_template(city):
     j2_env = Environment(loader=FileSystemLoader('templates'), trim_blocks=True)
     html = j2_env.get_template(f'ext_{city}.html').render(data=data)
     html_minified = minify_html(html)
-    css = fetch_css()
-    script = Template(tmpl.script_template).substitute(css=css, minified=html_minified)
+    css = fetch_css('data.css', './static')
+    if city == 'ham':
+        script = Template(tmpl.script_template_ham).substitute(css=css, minified=html_minified)
+    if city == 'burl':
+        script = Template(tmpl.script_template_burl).substitute(css=css, minified=html_minified)
     script_name = f"elxn_results_{city}.js"
     save_file_overwrite(script, script_name)
     return script_name

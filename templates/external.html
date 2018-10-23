@@ -1,25 +1,27 @@
 {% macro show_candidates(ward) %}
-    <section class=" bb b--gray pt2 pb2 hamont-wards" id="">
-        <div class="pb2 ttu">{{ ward.race }}</div>
+    <section style="padding-bottom: 6px; padding-top: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-color: grey;" class="hamont-wards" id="">
+        <div style="text-transform: uppercase; padding-bottom: 6px; ">{{ ward.race }}</div>
         {% set ward_leaders = ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
-        <button class="pica-accordion fw6"> 
-            {% if ward_leaders[0]['votes'] > 0 %}
-            {{ ward_leaders[0]['choiceName'] }} leading,
+        <button style="font-size: 14px; font-weight: 600;" class="pica-accordion"> 
+            {% if ward_leaders[0]["isWinner"] == 1 %}
+            {{ ward_leaders[0]['choiceName']|replace("'", "&rsquo;") }} won,
+            {% else %}
+            {{ ward_leaders[0]['choiceName']|replace("'", "&rsquo;") }} leading,
             {% endif %}
             {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
         <div class="pica-panel">
-            <table class="collapse ba br2 b--black-10 pv2 w-100">
+            <table style="width: 100%; padding-top: 6px; padding-bottom: 6px; border-style: solid; border-width: 1px; border-color: lightgrey; font-size: 12px; border-collapse: collapse;">
                 <tbody>
                     <tr class="striped--light-gray">
-                        <th class="tl f6 fw6 ttu pv2 ph3">Name</th>
-                        <th class="tl f6 fw6 ttu pv2 ph3">Votes</th>
-                        <th class="tl f6 fw6 ttu pv2 ph3">%</th>
+                        <th style="font-weight: 600; text-transform: uppercase; text-align: left; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="f6">Name</th>
+                        <th style="font-weight: 600; text-transform: uppercase; text-align: left; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;"class="f6">Votes</th>
+                        <th style="font-weight: 600; text-transform: uppercase; text-align: left; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;"class="f6">%</th>
                     </tr>
                     {% for item in ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
-                    <tr class="striped--light-gray">
-                        <td class="pv2 ph3">{{ loop.index }}. {{ item.choiceName }}</td>
-                        <td class="pv2 ph3">{{ item.votes }}</td>
-                        <td class="pv2 ph3">{{ item.percentage }}</td>
+                    <tr style="font-weight: 600; " class="striped--light-gray">
+                        <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="">{{ loop.index }}. {{ item.choiceName|replace("'", "&rsquo;") }}</td>
+                        <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="">{{ item.votes }}</td>
+                        <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="">{{ item.percentage }}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -30,33 +32,35 @@
 
 {% macro show_trustees(ward) %}
     {% set leaders = ward['results']['choiceResults']|sort(attribute='votes', reverse=True) %}
-    <section class="bb b--gray pt2 pb2 hamont-wards" id="">
-        <div class="pb2 ttu">{{ ward.race|replace('District School Board','DSB') | replace("Hamilton-Wentworth ","HW") | replace("Catholic ","C") }}</div>
-        <button class="pica-accordion fw6">
+    <section style="padding-bottom: 6px; padding-top: 6px; border-bottom-style: solid; border-bottom-width: 1px; border-color: lightgrey;" class="hamont-wards" id="">
+        <div style="text-transform: uppercase; padding-bottom:6px; ">{{ ward.race|replace('District School Board','DSB') | replace("Hamilton-Wentworth ","HW") | replace("Catholic ","C") }}</div>
+        <button style="font-size: 14px; font-weight: 600;" class="pica-accordion">
             {% if ward.results.isAcclaimed %}
-            {{ leaders[0]['choiceName'] }} <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span></button>
-            {% elif leaders[0]['votes'] > 0 %}
-            {{ leaders[0]['choiceName'] }} leading, {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
+            {{ leaders[0]['choiceName']|replace("'", "\'")  }} acclaimed
+            {% elif leaders[0]["isWinner"] == 1 %}
+            {{ leaders[0]['choiceName']|replace("'", "\'")  }} won,
+            {{ ward.statistics.closedPolls}}/{{ward.statistics.polls }} polls</button>
             {% else %}
+            {{ leaders[0]['choiceName']|replace("'", "\'")  }} leading,
             {{ward.statistics.closedPolls}}/{{ward.statistics.polls}} polls</button>
             {% endif %}
         <div class="pica-panel">
-            <table class="collapse ba br2 b--black-10 pv2 w-100">
+            <table style="width: 100%; border-collapse: collapse;" class="ba b--black-10 pv2">
                 <tbody>
                     <tr class="striped--light-gray">
-                        <th class="tl f6 fw6 ttu pv2 ph3">Name</th>
-                        <th class="tl f6 fw6 ttu pv2 ph3">Votes</th>
-                        <th class="tl f6 fw6 ttu pv2 ph3">%</th>
+                        <th style="text-align: left; text-transform: uppercase; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="f6 fw6">Name</th>
+                        <th style="text-align: left; text-transform: uppercase; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="f6 fw6">Votes</th>
+                        <th style="text-align: left; text-transform: uppercase; padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="f6 fw6">%</th>
                     </tr>
                     {% for item in leaders %}
                     <tr class="striped--light-gray">
-                        <td class="pv2 ph3">{{ loop.index }}. {{ item.choiceName }}
+                        <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;">{{ loop.index }}. {{ item.choiceName|replace("'", "\'") }}
                             {% if ward.results.isAcclaimed %}
                                 <span style="font-family: sans-serif; color: grey; font-size: 14px;">acclaimed</span></td>
                             {% else %}
                                 </td>
-                                <td class="pv2 ph3">{{ item.votes }}</td>
-                                <td class="pv2 ph3">{{ item.percentage }}</td>
+                                <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="">{{ item.votes }}</td>
+                                <td style="padding-top: 6px; padding-bottom: 6px; padding-left: 10px; padding-right: 10px;" class="">{{ item.percentage }}</td>
                             {% endif %}
                     </tr>
                     {% endfor %}
@@ -65,7 +69,6 @@
         </div>
     </section>
 {% endmacro %}
-
 
 
  

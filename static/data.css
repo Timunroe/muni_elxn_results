@@ -50,14 +50,14 @@
     border-width: 1px;
     border-color: rgba(0, 0, 0, .3);
     border-top-style: none;
-    padding: 0.5rem;
+    padding: 0.7rem;
   }
 
 
 /* ACCORDIONS */
 
 /* Style the buttons that are used to open and close the accordion panel */
-.pica-accordion {
+.pica-accordion, .pica-accordion-ham, .pica-accordion-burl {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -70,7 +70,7 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.pica-active, .pica-accordion:hover {
+.pica-active, .pica-accordion:hover, .pica-accordion-ham:hover, .pica-accordion-burl:hover   {
     background-color: #ccc;
 }
 
@@ -81,7 +81,7 @@
     overflow: hidden;
 }
 
-button.pica-accordion:after {
+button.pica-accordion:after, button.pica-accordion-ham:after, button.pica-accordion-burl:after {
     content: "+";
     color: #777;
     font-weight: bold;
@@ -89,7 +89,7 @@ button.pica-accordion:after {
     margin-left: 5px;
 }
 
-button.pica-accordion.pica-active:after {
+button.pica-accordion.pica-active:after, button.pica-accordion-ham.pica-active:after, button.pica-accordion-burl.pica-active:after {
     content: "-";
 }
 

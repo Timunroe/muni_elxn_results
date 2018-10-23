@@ -1,0 +1,3366 @@
+{
+    "races": [
+        {
+            "id": "1",
+            "race": "Mayor",
+            "results": {
+                "ballotCast": 80495,
+                "choiceResults": [
+                    {
+                        "choiceName": "Jim DAVIS",
+                        "gender": "Unknown",
+                        "id": "1",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.62%",
+                        "votes": 1286
+                    },
+                    {
+                        "choiceName": "Fred EISENBERGER",
+                        "gender": "Unknown",
+                        "id": "2",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "54.77%",
+                        "votes": 43599
+                    },
+                    {
+                        "choiceName": "Paul FROMM",
+                        "gender": "Unknown",
+                        "id": "3",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.57%",
+                        "votes": 451
+                    },
+                    {
+                        "choiceName": "Henry GEISSLER",
+                        "gender": "Unknown",
+                        "id": "4",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.38%",
+                        "votes": 305
+                    },
+                    {
+                        "choiceName": "Carlos GOMES",
+                        "gender": "Unknown",
+                        "id": "5",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.38%",
+                        "votes": 300
+                    },
+                    {
+                        "choiceName": "Edward HC GRAYDON",
+                        "gender": "Unknown",
+                        "id": "6",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.32%",
+                        "votes": 257
+                    },
+                    {
+                        "choiceName": "Todd MAY",
+                        "gender": "Unknown",
+                        "id": "7",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.39%",
+                        "votes": 314
+                    },
+                    {
+                        "choiceName": "Michael PATTISON",
+                        "gender": "Unknown",
+                        "id": "8",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.71%",
+                        "votes": 569
+                    },
+                    {
+                        "choiceName": "George RUSICH",
+                        "gender": "Unknown",
+                        "id": "9",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.63%",
+                        "votes": 1300
+                    },
+                    {
+                        "choiceName": "Phil RYERSON",
+                        "gender": "Unknown",
+                        "id": "10",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.34%",
+                        "votes": 271
+                    },
+                    {
+                        "choiceName": "Ute SCHMID-JONES",
+                        "gender": "Unknown",
+                        "id": "11",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.36%",
+                        "votes": 284
+                    },
+                    {
+                        "choiceName": "Vito SGRO",
+                        "gender": "Unknown",
+                        "id": "12",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "36.92%",
+                        "votes": 29393
+                    },
+                    {
+                        "choiceName": "Ricky TAVARES",
+                        "gender": "Unknown",
+                        "id": "13",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.29%",
+                        "votes": 228
+                    },
+                    {
+                        "choiceName": "Mark WOZNY",
+                        "gender": "Unknown",
+                        "id": "14",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.31%",
+                        "votes": 245
+                    },
+                    {
+                        "choiceName": "Nathalie Xian Yi YAN",
+                        "gender": "Unknown",
+                        "id": "15",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.01%",
+                        "votes": 803
+                    }
+                ],
+                "contestName": "Mayor",
+                "eligibleVoters": 361212,
+                "id": "1",
+                "isAcclaimed": false,
+                "sort": 1,
+                "turnout": "22.28%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 80495,
+                "ballotCast2": 80495,
+                "closedPolls": 142,
+                "closedTabulators": 172,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 147,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 222
+                    },
+                    {
+                        "closedTabulators": 25,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 30
+                    }
+                ],
+                "eligibleVoters": 361212,
+                "polls": 222,
+                "startedPolls": 0,
+                "tabulators": 252,
+                "turnout": "22.28%",
+                "turnout2": "22.28%"
+            }
+        },
+        {
+            "id": "3",
+            "race": "Councillor - Ward 1",
+            "results": {
+                "ballotCast": 5153,
+                "choiceResults": [
+                    {
+                        "choiceName": "Jason ALLEN",
+                        "gender": "Unknown",
+                        "id": "16",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "16.30%",
+                        "votes": 829
+                    },
+                    {
+                        "choiceName": "Sharon ANDERSON",
+                        "gender": "Unknown",
+                        "id": "17",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.67%",
+                        "votes": 85
+                    },
+                    {
+                        "choiceName": "Syed BAKHT",
+                        "gender": "Unknown",
+                        "id": "18",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.46%",
+                        "votes": 125
+                    },
+                    {
+                        "choiceName": "Sharon COLE",
+                        "gender": "Unknown",
+                        "id": "19",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.14%",
+                        "votes": 58
+                    },
+                    {
+                        "choiceName": "Ela EROGLU",
+                        "gender": "Unknown",
+                        "id": "20",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.36%",
+                        "votes": 69
+                    },
+                    {
+                        "choiceName": "Jordan GEERTSMA",
+                        "gender": "Unknown",
+                        "id": "21",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.01%",
+                        "votes": 102
+                    },
+                    {
+                        "choiceName": "Sophie GEFFROS",
+                        "gender": "Unknown",
+                        "id": "22",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "9.40%",
+                        "votes": 478
+                    },
+                    {
+                        "choiceName": "Carol LAZICH",
+                        "gender": "Unknown",
+                        "id": "23",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "12.29%",
+                        "votes": 625
+                    },
+                    {
+                        "choiceName": "Richard MASSIE",
+                        "gender": "Unknown",
+                        "id": "24",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.58%",
+                        "votes": 131
+                    },
+                    {
+                        "choiceName": "Lyla MIKLOS",
+                        "gender": "Unknown",
+                        "id": "25",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.05%",
+                        "votes": 155
+                    },
+                    {
+                        "choiceName": "Linda NARDUCCI",
+                        "gender": "Unknown",
+                        "id": "26",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.12%",
+                        "votes": 108
+                    },
+                    {
+                        "choiceName": "Harrison WHITE",
+                        "gender": "Unknown",
+                        "id": "27",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.14%",
+                        "votes": 109
+                    },
+                    {
+                        "choiceName": "Maureen WILSON",
+                        "gender": "Unknown",
+                        "id": "28",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "43.50%",
+                        "votes": 2213
+                    }
+                ],
+                "contestName": "Councillor - Ward 1",
+                "eligibleVoters": 21034,
+                "id": "2",
+                "isAcclaimed": false,
+                "sort": 2,
+                "turnout": "24.50%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5153,
+                "ballotCast2": 5153,
+                "closedPolls": 10,
+                "closedTabulators": 12,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 16
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 21034,
+                "polls": 16,
+                "startedPolls": 0,
+                "tabulators": 18,
+                "turnout": "24.50%",
+                "turnout2": "24.50%"
+            }
+        },
+        {
+            "id": "4",
+            "race": "Councillor - Ward 2",
+            "results": {
+                "ballotCast": 3654,
+                "choiceResults": [
+                    {
+                        "choiceName": "Diane CHIARELLI",
+                        "gender": "Unknown",
+                        "id": "29",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "7.14%",
+                        "votes": 254
+                    },
+                    {
+                        "choiceName": "Suresh DALJEET",
+                        "gender": "Unknown",
+                        "id": "30",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.11%",
+                        "votes": 75
+                    },
+                    {
+                        "choiceName": "Jason FARR",
+                        "gender": "Unknown",
+                        "id": "31",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "46.66%",
+                        "votes": 1660
+                    },
+                    {
+                        "choiceName": "Cameron KROETSCH",
+                        "gender": "Unknown",
+                        "id": "32",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "27.35%",
+                        "votes": 973
+                    },
+                    {
+                        "choiceName": "Nicole SMITH",
+                        "gender": "Unknown",
+                        "id": "33",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "4.69%",
+                        "votes": 167
+                    },
+                    {
+                        "choiceName": "Mark TENNANT",
+                        "gender": "Unknown",
+                        "id": "34",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.01%",
+                        "votes": 214
+                    },
+                    {
+                        "choiceName": "James UNSWORTH",
+                        "gender": "Unknown",
+                        "id": "35",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.35%",
+                        "votes": 48
+                    },
+                    {
+                        "choiceName": "John VAIL",
+                        "gender": "Unknown",
+                        "id": "36",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "4.69%",
+                        "votes": 167
+                    }
+                ],
+                "contestName": "Councillor - Ward 2",
+                "eligibleVoters": 19455,
+                "id": "3",
+                "isAcclaimed": false,
+                "sort": 3,
+                "turnout": "18.78%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 3654,
+                "ballotCast2": 3654,
+                "closedPolls": 10,
+                "closedTabulators": 12,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 15
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 19455,
+                "polls": 15,
+                "startedPolls": 0,
+                "tabulators": 17,
+                "turnout": "18.78%",
+                "turnout2": "18.78%"
+            }
+        },
+        {
+            "id": "5",
+            "race": "Councillor - Ward 3",
+            "results": {
+                "ballotCast": 5383,
+                "choiceResults": [
+                    {
+                        "choiceName": "Milena BALTA",
+                        "gender": "Unknown",
+                        "id": "37",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.62%",
+                        "votes": 191
+                    },
+                    {
+                        "choiceName": "Keith BECK",
+                        "gender": "Unknown",
+                        "id": "38",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.18%",
+                        "votes": 62
+                    },
+                    {
+                        "choiceName": "Alain BUREAU",
+                        "gender": "Unknown",
+                        "id": "39",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "4.12%",
+                        "votes": 217
+                    },
+                    {
+                        "choiceName": "Steven Paul DENAULT",
+                        "gender": "Unknown",
+                        "id": "40",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.39%",
+                        "votes": 73
+                    },
+                    {
+                        "choiceName": "Laura FARR",
+                        "gender": "Unknown",
+                        "id": "41",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "19.75%",
+                        "votes": 1041
+                    },
+                    {
+                        "choiceName": "Brendan KAVANAUGH",
+                        "gender": "Unknown",
+                        "id": "42",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.04%",
+                        "votes": 160
+                    },
+                    {
+                        "choiceName": "Ned KURUC",
+                        "gender": "Unknown",
+                        "id": "43",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "14.29%",
+                        "votes": 753
+                    },
+                    {
+                        "choiceName": "Tony LEMMA",
+                        "gender": "Unknown",
+                        "id": "44",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.96%",
+                        "votes": 156
+                    },
+                    {
+                        "choiceName": "Nrinder NANN",
+                        "gender": "Unknown",
+                        "id": "45",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "31.61%",
+                        "votes": 1666
+                    },
+                    {
+                        "choiceName": "Stephen ROWE",
+                        "gender": "Unknown",
+                        "id": "46",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.61%",
+                        "votes": 190
+                    },
+                    {
+                        "choiceName": "Amanda SALONEN",
+                        "gender": "Unknown",
+                        "id": "47",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.85%",
+                        "votes": 361
+                    },
+                    {
+                        "choiceName": "Dan SMITH",
+                        "gender": "Unknown",
+                        "id": "48",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "5.98%",
+                        "votes": 315
+                    },
+                    {
+                        "choiceName": "Kristeen SPRAGUE",
+                        "gender": "Unknown",
+                        "id": "49",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.61%",
+                        "votes": 85
+                    }
+                ],
+                "contestName": "Councillor - Ward 3",
+                "eligibleVoters": 25103,
+                "id": "4",
+                "isAcclaimed": false,
+                "sort": 4,
+                "turnout": "21.44%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5383,
+                "ballotCast2": 5383,
+                "closedPolls": 15,
+                "closedTabulators": 17,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 15,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 20
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25103,
+                "polls": 20,
+                "startedPolls": 0,
+                "tabulators": 22,
+                "turnout": "21.44%",
+                "turnout2": "21.44%"
+            }
+        },
+        {
+            "id": "6",
+            "race": "Councillor - Ward 4",
+            "results": {
+                "ballotCast": 6942,
+                "choiceResults": [
+                    {
+                        "choiceName": "Rod DOUGLAS",
+                        "gender": "Unknown",
+                        "id": "50",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "21.79%",
+                        "votes": 1496
+                    },
+                    {
+                        "choiceName": "Sam MERULLA",
+                        "gender": "Unknown",
+                        "id": "51",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "78.21%",
+                        "votes": 5369
+                    }
+                ],
+                "contestName": "Councillor - Ward 4",
+                "eligibleVoters": 25277,
+                "id": "5",
+                "isAcclaimed": false,
+                "sort": 5,
+                "turnout": "27.46%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 6942,
+                "ballotCast2": 6942,
+                "closedPolls": 11,
+                "closedTabulators": 13,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 12,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 15
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25277,
+                "polls": 15,
+                "startedPolls": 0,
+                "tabulators": 17,
+                "turnout": "27.46%",
+                "turnout2": "27.46%"
+            }
+        },
+        {
+            "id": "7",
+            "race": "Councillor - Ward 5",
+            "results": {
+                "ballotCast": 4821,
+                "choiceResults": [
+                    {
+                        "choiceName": "Chad COLLINS",
+                        "gender": "Unknown",
+                        "id": "52",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "78.85%",
+                        "votes": 3675
+                    },
+                    {
+                        "choiceName": "Stewart KLAZINGA",
+                        "gender": "Unknown",
+                        "id": "53",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "5.69%",
+                        "votes": 265
+                    },
+                    {
+                        "choiceName": "Juanita MALDONADO",
+                        "gender": "Unknown",
+                        "id": "54",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "15.47%",
+                        "votes": 721
+                    }
+                ],
+                "contestName": "Councillor - Ward 5",
+                "eligibleVoters": 27561,
+                "id": "6",
+                "isAcclaimed": false,
+                "sort": 6,
+                "turnout": "17.49%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4821,
+                "ballotCast2": 4821,
+                "closedPolls": 9,
+                "closedTabulators": 11,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 17
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 27561,
+                "polls": 17,
+                "startedPolls": 0,
+                "tabulators": 19,
+                "turnout": "17.49%",
+                "turnout2": "17.49%"
+            }
+        },
+        {
+            "id": "8",
+            "race": "Councillor - Ward 6",
+            "results": {
+                "ballotCast": 5264,
+                "choiceResults": [
+                    {
+                        "choiceName": "Tom JACKSON",
+                        "gender": "Unknown",
+                        "id": "55",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "83.10%",
+                        "votes": 4301
+                    },
+                    {
+                        "choiceName": "Timothy TAYLOR",
+                        "gender": "Unknown",
+                        "id": "56",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "8.93%",
+                        "votes": 462
+                    },
+                    {
+                        "choiceName": "Brad YOUNG",
+                        "gender": "Unknown",
+                        "id": "57",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "7.98%",
+                        "votes": 413
+                    }
+                ],
+                "contestName": "Councillor - Ward 6",
+                "eligibleVoters": 25794,
+                "id": "7",
+                "isAcclaimed": false,
+                "sort": 7,
+                "turnout": "20.41%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5264,
+                "ballotCast2": 5264,
+                "closedPolls": 6,
+                "closedTabulators": 8,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 6,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 13
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25794,
+                "polls": 13,
+                "startedPolls": 0,
+                "tabulators": 15,
+                "turnout": "20.41%",
+                "turnout2": "20.41%"
+            }
+        },
+        {
+            "id": "9",
+            "race": "Councillor - Ward 7",
+            "results": {
+                "ballotCast": 10314,
+                "choiceResults": [
+                    {
+                        "choiceName": "Steve BENSON",
+                        "gender": "Unknown",
+                        "id": "58",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.38%",
+                        "votes": 344
+                    },
+                    {
+                        "choiceName": "Steve CLARKE",
+                        "gender": "Unknown",
+                        "id": "59",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "10.61%",
+                        "votes": 1081
+                    },
+                    {
+                        "choiceName": "Kristopher CLOWATER",
+                        "gender": "Unknown",
+                        "id": "60",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.93%",
+                        "votes": 95
+                    },
+                    {
+                        "choiceName": "Adam DIRANI",
+                        "gender": "Unknown",
+                        "id": "61",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "11.83%",
+                        "votes": 1206
+                    },
+                    {
+                        "choiceName": "Karen GRICE-UGGENTI",
+                        "gender": "Unknown",
+                        "id": "62",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "10.41%",
+                        "votes": 1061
+                    },
+                    {
+                        "choiceName": "Joseph KAZUBEK",
+                        "gender": "Unknown",
+                        "id": "63",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.33%",
+                        "votes": 136
+                    },
+                    {
+                        "choiceName": "Dan MacINTYRE",
+                        "gender": "Unknown",
+                        "id": "64",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "14.38%",
+                        "votes": 1465
+                    },
+                    {
+                        "choiceName": "Jim McCOLL",
+                        "gender": "Unknown",
+                        "id": "65",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "5.29%",
+                        "votes": 539
+                    },
+                    {
+                        "choiceName": "Geraldine McMULLEN",
+                        "gender": "Unknown",
+                        "id": "66",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "16.10%",
+                        "votes": 1641
+                    },
+                    {
+                        "choiceName": "Esther PAULS",
+                        "gender": "Unknown",
+                        "id": "67",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "24.38%",
+                        "votes": 2485
+                    },
+                    {
+                        "choiceName": "Roland SCHNEIDER",
+                        "gender": "Unknown",
+                        "id": "68",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.35%",
+                        "votes": 138
+                    }
+                ],
+                "contestName": "Councillor - Ward 7",
+                "eligibleVoters": 31483,
+                "id": "8",
+                "isAcclaimed": false,
+                "sort": 8,
+                "turnout": "32.76%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 10314,
+                "ballotCast2": 10314,
+                "closedPolls": 16,
+                "closedTabulators": 18,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 16,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 18
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 31483,
+                "polls": 18,
+                "startedPolls": 0,
+                "tabulators": 20,
+                "turnout": "32.76%",
+                "turnout2": "32.76%"
+            }
+        },
+        {
+            "id": "10",
+            "race": "Councillor - Ward 8",
+            "results": {
+                "ballotCast": 4919,
+                "choiceResults": [
+                    {
+                        "choiceName": "Eve ADAMS",
+                        "gender": "Unknown",
+                        "id": "69",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "23.32%",
+                        "votes": 1137
+                    },
+                    {
+                        "choiceName": "Christopher CLIMIE",
+                        "gender": "Unknown",
+                        "id": "70",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "0.62%",
+                        "votes": 30
+                    },
+                    {
+                        "choiceName": "John-Paul DANKO",
+                        "gender": "Unknown",
+                        "id": "71",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "37.35%",
+                        "votes": 1821
+                    },
+                    {
+                        "choiceName": "Steve RUDDICK",
+                        "gender": "Unknown",
+                        "id": "72",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "23.38%",
+                        "votes": 1140
+                    },
+                    {
+                        "choiceName": "Anthony SIMPSON",
+                        "gender": "Unknown",
+                        "id": "73",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.42%",
+                        "votes": 167
+                    },
+                    {
+                        "choiceName": "Colleen WICKEN",
+                        "gender": "Unknown",
+                        "id": "74",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "11.92%",
+                        "votes": 581
+                    }
+                ],
+                "contestName": "Councillor - Ward 8",
+                "eligibleVoters": 21873,
+                "id": "9",
+                "isAcclaimed": false,
+                "sort": 9,
+                "turnout": "22.49%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4919,
+                "ballotCast2": 4919,
+                "closedPolls": 9,
+                "closedTabulators": 11,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 9,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 13
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 21873,
+                "polls": 13,
+                "startedPolls": 0,
+                "tabulators": 15,
+                "turnout": "22.49%",
+                "turnout2": "22.49%"
+            }
+        },
+        {
+            "id": "11",
+            "race": "Councillor - Ward 9",
+            "results": {
+                "ballotCast": 4492,
+                "choiceResults": [
+                    {
+                        "choiceName": "Brad CLARK",
+                        "gender": "Unknown",
+                        "id": "75",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "40.10%",
+                        "votes": 1768
+                    },
+                    {
+                        "choiceName": "Doug CONLEY",
+                        "gender": "Unknown",
+                        "id": "76",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "28.31%",
+                        "votes": 1248
+                    },
+                    {
+                        "choiceName": "David FORD",
+                        "gender": "Unknown",
+                        "id": "77",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "5.49%",
+                        "votes": 242
+                    },
+                    {
+                        "choiceName": "Peter LANZA",
+                        "gender": "Unknown",
+                        "id": "78",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "23.57%",
+                        "votes": 1039
+                    },
+                    {
+                        "choiceName": "Lakhwinder Singh MULTANI",
+                        "gender": "Unknown",
+                        "id": "79",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.54%",
+                        "votes": 112
+                    }
+                ],
+                "contestName": "Councillor - Ward 9",
+                "eligibleVoters": 19473,
+                "id": "10",
+                "isAcclaimed": false,
+                "sort": 10,
+                "turnout": "23.07%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4492,
+                "ballotCast2": 4492,
+                "closedPolls": 7,
+                "closedTabulators": 9,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 8,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 11
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 19473,
+                "polls": 11,
+                "startedPolls": 0,
+                "tabulators": 13,
+                "turnout": "23.07%",
+                "turnout2": "23.07%"
+            }
+        },
+        {
+            "id": "12",
+            "race": "Councillor - Ward 10",
+            "results": {
+                "ballotCast": 6600,
+                "choiceResults": [
+                    {
+                        "choiceName": "Jeff BEATTIE",
+                        "gender": "Unknown",
+                        "id": "80",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "22.51%",
+                        "votes": 1476
+                    },
+                    {
+                        "choiceName": "Louie MILOJEVIC",
+                        "gender": "Unknown",
+                        "id": "81",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "28.67%",
+                        "votes": 1880
+                    },
+                    {
+                        "choiceName": "Maria PEARSON",
+                        "gender": "Unknown",
+                        "id": "82",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "38.52%",
+                        "votes": 2526
+                    },
+                    {
+                        "choiceName": "Ian THOMPSON",
+                        "gender": "Unknown",
+                        "id": "83",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "10.29%",
+                        "votes": 675
+                    }
+                ],
+                "contestName": "Councillor - Ward 10",
+                "eligibleVoters": 27018,
+                "id": "11",
+                "isAcclaimed": false,
+                "sort": 11,
+                "turnout": "24.43%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 6600,
+                "ballotCast2": 6600,
+                "closedPolls": 10,
+                "closedTabulators": 12,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 15
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 27018,
+                "polls": 15,
+                "startedPolls": 0,
+                "tabulators": 17,
+                "turnout": "24.43%",
+                "turnout2": "24.43%"
+            }
+        },
+        {
+            "id": "13",
+            "race": "Councillor - Ward 11",
+            "results": {
+                "ballotCast": 4347,
+                "choiceResults": [
+                    {
+                        "choiceName": "Brenda JOHNSON",
+                        "gender": "Unknown",
+                        "id": "84",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "88.44%",
+                        "votes": 3809
+                    },
+                    {
+                        "choiceName": "Waleed SHEWAYHAT",
+                        "gender": "Unknown",
+                        "id": "85",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "11.56%",
+                        "votes": 498
+                    }
+                ],
+                "contestName": "Councillor - Ward 11",
+                "eligibleVoters": 17800,
+                "id": "12",
+                "isAcclaimed": false,
+                "sort": 12,
+                "turnout": "24.42%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4347,
+                "ballotCast2": 4347,
+                "closedPolls": 4,
+                "closedTabulators": 6,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 6
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 17800,
+                "polls": 6,
+                "startedPolls": 0,
+                "tabulators": 8,
+                "turnout": "24.42%",
+                "turnout2": "24.42%"
+            }
+        },
+        {
+            "id": "14",
+            "race": "Councillor - Ward 12",
+            "results": {
+                "ballotCast": 4786,
+                "choiceResults": [
+                    {
+                        "choiceName": "Mike BELL",
+                        "gender": "Unknown",
+                        "id": "86",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "13.11%",
+                        "votes": 625
+                    },
+                    {
+                        "choiceName": "Lloyd FERGUSON",
+                        "gender": "Unknown",
+                        "id": "87",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "62.97%",
+                        "votes": 3003
+                    },
+                    {
+                        "choiceName": "Kevin MARLEY",
+                        "gender": "Unknown",
+                        "id": "88",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.30%",
+                        "votes": 62
+                    },
+                    {
+                        "choiceName": "Miranda REIS",
+                        "gender": "Unknown",
+                        "id": "89",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "16.00%",
+                        "votes": 763
+                    },
+                    {
+                        "choiceName": "John SCIME",
+                        "gender": "Unknown",
+                        "id": "90",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.63%",
+                        "votes": 316
+                    }
+                ],
+                "contestName": "Councillor - Ward 12",
+                "eligibleVoters": 29708,
+                "id": "13",
+                "isAcclaimed": false,
+                "sort": 13,
+                "turnout": "16.11%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4786,
+                "ballotCast2": 4786,
+                "closedPolls": 6,
+                "closedTabulators": 8,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 7,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 16
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 29708,
+                "polls": 16,
+                "startedPolls": 0,
+                "tabulators": 18,
+                "turnout": "16.11%",
+                "turnout2": "16.11%"
+            }
+        },
+        {
+            "id": "15",
+            "race": "Councillor - Ward 13",
+            "results": {
+                "ballotCast": 7227,
+                "choiceResults": [
+                    {
+                        "choiceName": "Gaspare BONOMO",
+                        "gender": "Unknown",
+                        "id": "91",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "5.63%",
+                        "votes": 401
+                    },
+                    {
+                        "choiceName": "Rich GELDER",
+                        "gender": "Unknown",
+                        "id": "92",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "26.85%",
+                        "votes": 1912
+                    },
+                    {
+                        "choiceName": "Kevin GRAY",
+                        "gender": "Unknown",
+                        "id": "93",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.46%",
+                        "votes": 460
+                    },
+                    {
+                        "choiceName": "Pamela MITCHELL",
+                        "gender": "Unknown",
+                        "id": "94",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "1.66%",
+                        "votes": 118
+                    },
+                    {
+                        "choiceName": "John MYKYTYSHYN",
+                        "gender": "Unknown",
+                        "id": "95",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "19.49%",
+                        "votes": 1388
+                    },
+                    {
+                        "choiceName": "John ROBERTS",
+                        "gender": "Unknown",
+                        "id": "96",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.13%",
+                        "votes": 223
+                    },
+                    {
+                        "choiceName": "Arlene VANDERBEEK",
+                        "gender": "Unknown",
+                        "id": "97",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "36.79%",
+                        "votes": 2620
+                    }
+                ],
+                "contestName": "Councillor - Ward 13",
+                "eligibleVoters": 26614,
+                "id": "14",
+                "isAcclaimed": false,
+                "sort": 14,
+                "turnout": "27.15%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 7227,
+                "ballotCast2": 7227,
+                "closedPolls": 12,
+                "closedTabulators": 14,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 13,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 19
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 26614,
+                "polls": 19,
+                "startedPolls": 0,
+                "tabulators": 21,
+                "turnout": "27.15%",
+                "turnout2": "27.15%"
+            }
+        },
+        {
+            "id": "16",
+            "race": "Councillor - Ward 14",
+            "results": {
+                "ballotCast": 4635,
+                "choiceResults": [
+                    {
+                        "choiceName": "Roslyn FRENCH-SANGES",
+                        "gender": "Unknown",
+                        "id": "98",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "9.54%",
+                        "votes": 433
+                    },
+                    {
+                        "choiceName": "Robert ISZKULA",
+                        "gender": "Unknown",
+                        "id": "99",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "3.70%",
+                        "votes": 168
+                    },
+                    {
+                        "choiceName": "Vincent SAMUEL",
+                        "gender": "Unknown",
+                        "id": "100",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "2.91%",
+                        "votes": 132
+                    },
+                    {
+                        "choiceName": "Terry WHITEHEAD",
+                        "gender": "Unknown",
+                        "id": "101",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "57.87%",
+                        "votes": 2626
+                    },
+                    {
+                        "choiceName": "Bryan WILSON",
+                        "gender": "Unknown",
+                        "id": "102",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "25.98%",
+                        "votes": 1179
+                    }
+                ],
+                "contestName": "Councillor - Ward 14",
+                "eligibleVoters": 22540,
+                "id": "15",
+                "isAcclaimed": false,
+                "sort": 15,
+                "turnout": "20.56%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4635,
+                "ballotCast2": 4635,
+                "closedPolls": 13,
+                "closedTabulators": 15,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 13,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 18
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 22540,
+                "polls": 18,
+                "startedPolls": 0,
+                "tabulators": 20,
+                "turnout": "20.56%",
+                "turnout2": "20.56%"
+            }
+        },
+        {
+            "id": "17",
+            "race": "Councillor - Ward 15",
+            "results": {
+                "ballotCast": 1958,
+                "choiceResults": [
+                    {
+                        "choiceName": "Susan McKECHNIE",
+                        "gender": "Unknown",
+                        "id": "103",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "47.82%",
+                        "votes": 932
+                    },
+                    {
+                        "choiceName": "Judi PARTRIDGE",
+                        "gender": "Unknown",
+                        "id": "104",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "52.18%",
+                        "votes": 1017
+                    }
+                ],
+                "contestName": "Councillor - Ward 15",
+                "eligibleVoters": 20479,
+                "id": "16",
+                "isAcclaimed": false,
+                "sort": 16,
+                "turnout": "9.56%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 1958,
+                "ballotCast2": 1958,
+                "closedPolls": 4,
+                "closedTabulators": 6,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 10
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 20479,
+                "polls": 10,
+                "startedPolls": 0,
+                "tabulators": 12,
+                "turnout": "9.56%",
+                "turnout2": "9.56%"
+            }
+        },
+        {
+            "id": "18",
+            "race": "Trustee, Hamilton-Wentworth District School Board Wards 1 & 2",
+            "results": {
+                "ballotCast": 7510,
+                "choiceResults": [
+                    {
+                        "choiceName": "Christine BINGHAM",
+                        "gender": "Unknown",
+                        "id": "105",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "75.29%",
+                        "votes": 4650
+                    },
+                    {
+                        "choiceName": "Rahimuddin CHOWDHURY",
+                        "gender": "Unknown",
+                        "id": "106",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "24.71%",
+                        "votes": 1526
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Wards 1 & 2",
+                "eligibleVoters": 34166,
+                "id": "17",
+                "isAcclaimed": false,
+                "sort": 17,
+                "turnout": "21.98%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 8807,
+                "ballotCast2": 8807,
+                "closedPolls": 20,
+                "closedTabulators": 24,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 20,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 31
+                    },
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 40489,
+                "polls": 31,
+                "startedPolls": 0,
+                "tabulators": 35,
+                "turnout": "21.75%",
+                "turnout2": "21.75%"
+            }
+        },
+        {
+            "id": "19",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 3",
+            "results": {
+                "ballotCast": 4314,
+                "choiceResults": [
+                    {
+                        "choiceName": "Livia JONES",
+                        "gender": "Unknown",
+                        "id": "107",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "11.46%",
+                        "votes": 422
+                    },
+                    {
+                        "choiceName": "Maria Felix MILLER",
+                        "gender": "Unknown",
+                        "id": "108",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "23.62%",
+                        "votes": 870
+                    },
+                    {
+                        "choiceName": "Chris PARKINSON",
+                        "gender": "Unknown",
+                        "id": "109",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "29.05%",
+                        "votes": 1070
+                    },
+                    {
+                        "choiceName": "Gail TESSIER",
+                        "gender": "Unknown",
+                        "id": "110",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "15.45%",
+                        "votes": 569
+                    },
+                    {
+                        "choiceName": "Marlene A.S. THOMAS",
+                        "gender": "Unknown",
+                        "id": "111",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.76%",
+                        "votes": 249
+                    },
+                    {
+                        "choiceName": "Jocelynn VIEIRA",
+                        "gender": "Unknown",
+                        "id": "112",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "13.66%",
+                        "votes": 503
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 3",
+                "eligibleVoters": 19164,
+                "id": "18",
+                "isAcclaimed": false,
+                "sort": 18,
+                "turnout": "22.51%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5383,
+                "ballotCast2": 5383,
+                "closedPolls": 15,
+                "closedTabulators": 17,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 15,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 20
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25103,
+                "polls": 20,
+                "startedPolls": 0,
+                "tabulators": 22,
+                "turnout": "21.44%",
+                "turnout2": "21.44%"
+            }
+        },
+        {
+            "id": "20",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 4",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Ray MULHOLLAND",
+                        "gender": "Unknown",
+                        "id": "152",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 4",
+                "eligibleVoters": 0,
+                "id": "19",
+                "isAcclaimed": true,
+                "sort": 19,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "21",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 5",
+            "results": {
+                "ballotCast": 3381,
+                "choiceResults": [
+                    {
+                        "choiceName": "Jason McLAUGHLIN",
+                        "gender": "Unknown",
+                        "id": "113",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "19.85%",
+                        "votes": 603
+                    },
+                    {
+                        "choiceName": "Carole PAIKIN MILLER",
+                        "gender": "Unknown",
+                        "id": "114",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "41.41%",
+                        "votes": 1258
+                    },
+                    {
+                        "choiceName": "Todd WHITE",
+                        "gender": "Unknown",
+                        "id": "115",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "38.74%",
+                        "votes": 1177
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 5",
+                "eligibleVoters": 20061,
+                "id": "20",
+                "isAcclaimed": false,
+                "sort": 20,
+                "turnout": "16.85%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4821,
+                "ballotCast2": 4821,
+                "closedPolls": 9,
+                "closedTabulators": 11,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 17
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 27561,
+                "polls": 17,
+                "startedPolls": 0,
+                "tabulators": 19,
+                "turnout": "17.49%",
+                "turnout2": "17.49%"
+            }
+        },
+        {
+            "id": "22",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 6",
+            "results": {
+                "ballotCast": 3436,
+                "choiceResults": [
+                    {
+                        "choiceName": "Kathy ARCHER",
+                        "gender": "Unknown",
+                        "id": "116",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "50.88%",
+                        "votes": 1589
+                    },
+                    {
+                        "choiceName": "Jay EDINGTON",
+                        "gender": "Unknown",
+                        "id": "117",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "38.68%",
+                        "votes": 1208
+                    },
+                    {
+                        "choiceName": "Eamon O'DONNELL",
+                        "gender": "Unknown",
+                        "id": "118",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "10.44%",
+                        "votes": 326
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 6",
+                "eligibleVoters": 17902,
+                "id": "21",
+                "isAcclaimed": false,
+                "sort": 21,
+                "turnout": "19.19%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5264,
+                "ballotCast2": 5264,
+                "closedPolls": 6,
+                "closedTabulators": 8,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 6,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 13
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25794,
+                "polls": 13,
+                "startedPolls": 0,
+                "tabulators": 15,
+                "turnout": "20.41%",
+                "turnout2": "20.41%"
+            }
+        },
+        {
+            "id": "23",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 7",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Dawn DANKO",
+                        "gender": "Unknown",
+                        "id": "153",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 7",
+                "eligibleVoters": 0,
+                "id": "22",
+                "isAcclaimed": true,
+                "sort": 22,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "24",
+            "race": "Trustee, Hamilton-Wentworth District School Board Wards 8 & 14",
+            "results": {
+                "ballotCast": 6235,
+                "choiceResults": [
+                    {
+                        "choiceName": "Becky BUCK",
+                        "gender": "Unknown",
+                        "id": "119",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "60.62%",
+                        "votes": 3489
+                    },
+                    {
+                        "choiceName": "Rochelle BUTLER",
+                        "gender": "Unknown",
+                        "id": "120",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "10.49%",
+                        "votes": 604
+                    },
+                    {
+                        "choiceName": "Yousaf MALIK",
+                        "gender": "Unknown",
+                        "id": "121",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "9.83%",
+                        "votes": 566
+                    },
+                    {
+                        "choiceName": "Damin STARR",
+                        "gender": "Unknown",
+                        "id": "122",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "11.03%",
+                        "votes": 635
+                    },
+                    {
+                        "choiceName": "Erica VILLABROZA",
+                        "gender": "Unknown",
+                        "id": "123",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "8.03%",
+                        "votes": 462
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Wards 8 & 14",
+                "eligibleVoters": 30114,
+                "id": "23",
+                "isAcclaimed": false,
+                "sort": 23,
+                "turnout": "20.70%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 9554,
+                "ballotCast2": 9554,
+                "closedPolls": 22,
+                "closedTabulators": 26,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 22,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 31
+                    },
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 44413,
+                "polls": 31,
+                "startedPolls": 0,
+                "tabulators": 35,
+                "turnout": "21.51%",
+                "turnout2": "21.51%"
+            }
+        },
+        {
+            "id": "25",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 9 & 10",
+            "results": {
+                "ballotCast": 6235,
+                "choiceResults": [
+                    {
+                        "choiceName": "Cam GALINDO",
+                        "gender": "Unknown",
+                        "id": "124",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "53.17%",
+                        "votes": 3103
+                    },
+                    {
+                        "choiceName": "Wayne MARSTON",
+                        "gender": "Unknown",
+                        "id": "125",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "46.83%",
+                        "votes": 2733
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 9 & 10",
+                "eligibleVoters": 29158,
+                "id": "24",
+                "isAcclaimed": false,
+                "sort": 24,
+                "turnout": "21.38%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 11092,
+                "ballotCast2": 11092,
+                "closedPolls": 17,
+                "closedTabulators": 21,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 18,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 26
+                    },
+                    {
+                        "closedTabulators": 3,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 46491,
+                "polls": 26,
+                "startedPolls": 0,
+                "tabulators": 30,
+                "turnout": "23.86%",
+                "turnout2": "23.86%"
+            }
+        },
+        {
+            "id": "26",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 11 & 12",
+            "results": {
+                "ballotCast": 6764,
+                "choiceResults": [
+                    {
+                        "choiceName": "Bruce CARNEGIE",
+                        "gender": "Unknown",
+                        "id": "126",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "25.91%",
+                        "votes": 1531
+                    },
+                    {
+                        "choiceName": "Blake HAMBLY",
+                        "gender": "Unknown",
+                        "id": "127",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "15.92%",
+                        "votes": 941
+                    },
+                    {
+                        "choiceName": "Alex JOHNSTONE",
+                        "gender": "Unknown",
+                        "id": "128",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "58.17%",
+                        "votes": 3437
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 11 & 12",
+                "eligibleVoters": 35688,
+                "id": "25",
+                "isAcclaimed": false,
+                "sort": 25,
+                "turnout": "18.95%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 9133,
+                "ballotCast2": 9133,
+                "closedPolls": 10,
+                "closedTabulators": 14,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 11,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 22
+                    },
+                    {
+                        "closedTabulators": 3,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 47508,
+                "polls": 22,
+                "startedPolls": 0,
+                "tabulators": 26,
+                "turnout": "19.22%",
+                "turnout2": "19.22%"
+            }
+        },
+        {
+            "id": "27",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 13",
+            "results": {
+                "ballotCast": 6063,
+                "choiceResults": [
+                    {
+                        "choiceName": "Sukhi DHILLON",
+                        "gender": "Unknown",
+                        "id": "129",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "25.25%",
+                        "votes": 1338
+                    },
+                    {
+                        "choiceName": "Steven LAUR",
+                        "gender": "Unknown",
+                        "id": "130",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "6.40%",
+                        "votes": 339
+                    },
+                    {
+                        "choiceName": "Noor NIZAM",
+                        "gender": "Unknown",
+                        "id": "131",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "8.25%",
+                        "votes": 437
+                    },
+                    {
+                        "choiceName": "Chris PARR",
+                        "gender": "Unknown",
+                        "id": "132",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "26.02%",
+                        "votes": 1379
+                    },
+                    {
+                        "choiceName": "Paul TUT",
+                        "gender": "Unknown",
+                        "id": "133",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "34.08%",
+                        "votes": 1806
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 13",
+                "eligibleVoters": 22237,
+                "id": "26",
+                "isAcclaimed": false,
+                "sort": 26,
+                "turnout": "27.27%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 7227,
+                "ballotCast2": 7227,
+                "closedPolls": 12,
+                "closedTabulators": 14,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 13,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 19
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 26614,
+                "polls": 19,
+                "startedPolls": 0,
+                "tabulators": 21,
+                "turnout": "27.15%",
+                "turnout2": "27.15%"
+            }
+        },
+        {
+            "id": "28",
+            "race": "Trustee, Hamilton-Wentworth District School Board Ward 15",
+            "results": {
+                "ballotCast": 1608,
+                "choiceResults": [
+                    {
+                        "choiceName": "Janet CREET",
+                        "gender": "Unknown",
+                        "id": "134",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "38.28%",
+                        "votes": 537
+                    },
+                    {
+                        "choiceName": "Penny DEATHE",
+                        "gender": "Unknown",
+                        "id": "135",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "61.72%",
+                        "votes": 866
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth District School Board Ward 15",
+                "eligibleVoters": 16683,
+                "id": "27",
+                "isAcclaimed": false,
+                "sort": 27,
+                "turnout": "9.64%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 1958,
+                "ballotCast2": 1958,
+                "closedPolls": 4,
+                "closedTabulators": 6,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 10
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 20479,
+                "polls": 10,
+                "startedPolls": 0,
+                "tabulators": 12,
+                "turnout": "9.56%",
+                "turnout2": "9.56%"
+            }
+        },
+        {
+            "id": "29",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 1, 2 & 15",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Mark VALVASORI",
+                        "gender": "Unknown",
+                        "id": "154",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 1, 2 & 15",
+                "eligibleVoters": 0,
+                "id": "28",
+                "isAcclaimed": true,
+                "sort": 28,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "30",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 3 & 4",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Anthony PERRI",
+                        "gender": "Unknown",
+                        "id": "155",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 3 & 4",
+                "eligibleVoters": 0,
+                "id": "29",
+                "isAcclaimed": true,
+                "sort": 29,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "31",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 5",
+            "results": {
+                "ballotCast": 1399,
+                "choiceResults": [
+                    {
+                        "choiceName": "Ralph AGOSTINO",
+                        "gender": "Unknown",
+                        "id": "136",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "57.93%",
+                        "votes": 760
+                    },
+                    {
+                        "choiceName": "Aldo D'INTINO",
+                        "gender": "Unknown",
+                        "id": "137",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "42.07%",
+                        "votes": 552
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 5",
+                "eligibleVoters": 7242,
+                "id": "30",
+                "isAcclaimed": false,
+                "sort": 30,
+                "turnout": "19.32%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 4821,
+                "ballotCast2": 4821,
+                "closedPolls": 9,
+                "closedTabulators": 11,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 10,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 17
+                    },
+                    {
+                        "closedTabulators": 1,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 27561,
+                "polls": 17,
+                "startedPolls": 0,
+                "tabulators": 19,
+                "turnout": "17.49%",
+                "turnout2": "17.49%"
+            }
+        },
+        {
+            "id": "32",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 6",
+            "results": {
+                "ballotCast": 1785,
+                "choiceResults": [
+                    {
+                        "choiceName": "Ellen AGOSTINO",
+                        "gender": "Unknown",
+                        "id": "138",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "39.64%",
+                        "votes": 675
+                    },
+                    {
+                        "choiceName": "Joseph BAIARDO",
+                        "gender": "Unknown",
+                        "id": "139",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "52.44%",
+                        "votes": 893
+                    },
+                    {
+                        "choiceName": "Elenita RANAS",
+                        "gender": "Unknown",
+                        "id": "140",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "7.93%",
+                        "votes": 135
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 6",
+                "eligibleVoters": 7547,
+                "id": "31",
+                "isAcclaimed": false,
+                "sort": 31,
+                "turnout": "23.65%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 5264,
+                "ballotCast2": 5264,
+                "closedPolls": 6,
+                "closedTabulators": 8,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 6,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 13
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 2
+                    }
+                ],
+                "eligibleVoters": 25794,
+                "polls": 13,
+                "startedPolls": 0,
+                "tabulators": 15,
+                "turnout": "20.41%",
+                "turnout2": "20.41%"
+            }
+        },
+        {
+            "id": "33",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 7",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Patrick J. DALY",
+                        "gender": "Unknown",
+                        "id": "156",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 7",
+                "eligibleVoters": 0,
+                "id": "32",
+                "isAcclaimed": true,
+                "sort": 32,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "34",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 8 & 14",
+            "results": {
+                "ballotCast": 3209,
+                "choiceResults": [
+                    {
+                        "choiceName": "George KALACHERRY",
+                        "gender": "Unknown",
+                        "id": "141",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "20.30%",
+                        "votes": 612
+                    },
+                    {
+                        "choiceName": "John VALVASORI",
+                        "gender": "Unknown",
+                        "id": "142",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "79.70%",
+                        "votes": 2403
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 8 & 14",
+                "eligibleVoters": 13744,
+                "id": "33",
+                "isAcclaimed": false,
+                "sort": 33,
+                "turnout": "23.35%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 9554,
+                "ballotCast2": 9554,
+                "closedPolls": 22,
+                "closedTabulators": 26,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 22,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 31
+                    },
+                    {
+                        "closedTabulators": 4,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 44413,
+                "polls": 31,
+                "startedPolls": 0,
+                "tabulators": 35,
+                "turnout": "21.51%",
+                "turnout2": "21.51%"
+            }
+        },
+        {
+            "id": "35",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 9 & 11",
+            "results": {
+                "ballotCast": 2729,
+                "choiceResults": [
+                    {
+                        "choiceName": "Louis AGRO",
+                        "gender": "Unknown",
+                        "id": "143",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "34.90%",
+                        "votes": 889
+                    },
+                    {
+                        "choiceName": "Karmen CREA",
+                        "gender": "Unknown",
+                        "id": "144",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "13.11%",
+                        "votes": 334
+                    },
+                    {
+                        "choiceName": "Tony Di MAMBRO",
+                        "gender": "Unknown",
+                        "id": "145",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "20.18%",
+                        "votes": 514
+                    },
+                    {
+                        "choiceName": "Tyler IORIO",
+                        "gender": "Unknown",
+                        "id": "146",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "31.80%",
+                        "votes": 810
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 9 & 11",
+                "eligibleVoters": 10293,
+                "id": "34",
+                "isAcclaimed": false,
+                "sort": 34,
+                "turnout": "26.51%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 8839,
+                "ballotCast2": 8839,
+                "closedPolls": 11,
+                "closedTabulators": 15,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 12,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 17
+                    },
+                    {
+                        "closedTabulators": 3,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 37273,
+                "polls": 17,
+                "startedPolls": 0,
+                "tabulators": 21,
+                "turnout": "23.71%",
+                "turnout2": "23.71%"
+            }
+        },
+        {
+            "id": "36",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 10",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Mary NARDINI",
+                        "gender": "Unknown",
+                        "id": "157",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Ward 10",
+                "eligibleVoters": 0,
+                "id": "35",
+                "isAcclaimed": true,
+                "sort": 35,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        },
+        {
+            "id": "37",
+            "race": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 12 & 13",
+            "results": {
+                "ballotCast": 2330,
+                "choiceResults": [
+                    {
+                        "choiceName": "Olya CHAN",
+                        "gender": "Unknown",
+                        "id": "147",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "21.65%",
+                        "votes": 460
+                    },
+                    {
+                        "choiceName": "Neil CHOPP",
+                        "gender": "Unknown",
+                        "id": "148",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "33.74%",
+                        "votes": 717
+                    },
+                    {
+                        "choiceName": "Phil HOMERSKI",
+                        "gender": "Unknown",
+                        "id": "149",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "44.61%",
+                        "votes": 948
+                    }
+                ],
+                "contestName": "Trustee, Hamilton-Wentworth Catholic District School Board Wards 12 & 13",
+                "eligibleVoters": 11166,
+                "id": "36",
+                "isAcclaimed": false,
+                "sort": 36,
+                "turnout": "20.87%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 12013,
+                "ballotCast2": 12013,
+                "closedPolls": 18,
+                "closedTabulators": 22,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 20,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 35
+                    },
+                    {
+                        "closedTabulators": 2,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 4
+                    }
+                ],
+                "eligibleVoters": 56322,
+                "polls": 35,
+                "startedPolls": 0,
+                "tabulators": 39,
+                "turnout": "21.33%",
+                "turnout2": "21.33%"
+            }
+        },
+        {
+            "id": "38",
+            "race": "Trustee, Conseil scolaire Viamonde\u00a0- French Public",
+            "results": {
+                "ballotCast": 219,
+                "choiceResults": [
+                    {
+                        "choiceName": "Denis S. FRAWLEY",
+                        "gender": "Unknown",
+                        "id": "150",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "24.37%",
+                        "votes": 48
+                    },
+                    {
+                        "choiceName": "Pierre GIROUARD",
+                        "gender": "Unknown",
+                        "id": "151",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 0,
+                        "partyBreakdown": [],
+                        "percentage": "75.63%",
+                        "votes": 149
+                    }
+                ],
+                "contestName": "Trustee, Conseil scolaire Viamonde\u00a0- French Public",
+                "eligibleVoters": 801,
+                "id": "37",
+                "isAcclaimed": false,
+                "sort": 37,
+                "turnout": "27.34%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 80495,
+                "ballotCast2": 80495,
+                "closedPolls": 142,
+                "closedTabulators": 172,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 147,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 222
+                    },
+                    {
+                        "closedTabulators": 25,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 30
+                    }
+                ],
+                "eligibleVoters": 361212,
+                "polls": 222,
+                "startedPolls": 0,
+                "tabulators": 252,
+                "turnout": "22.28%",
+                "turnout2": "22.28%"
+            }
+        },
+        {
+            "id": "39",
+            "race": "Trustee, Conseil scolaire catholique MonAvenir - French Catholic",
+            "results": {
+                "ballotCast": 0,
+                "choiceResults": [
+                    {
+                        "choiceName": "Marcel LEVESQUE",
+                        "gender": "Unknown",
+                        "id": "158",
+                        "isDisabled": 0,
+                        "isIncumbent": 0,
+                        "isWinner": 1,
+                        "partyBreakdown": [],
+                        "percentage": "0%",
+                        "votes": 0
+                    }
+                ],
+                "contestName": "Trustee, Conseil scolaire catholique MonAvenir - French Catholic",
+                "eligibleVoters": 0,
+                "id": "38",
+                "isAcclaimed": true,
+                "sort": 38,
+                "turnout": "0%",
+                "voteFor": 1
+            },
+            "statistics": {
+                "ballotCast": 0,
+                "ballotCast2": 0,
+                "closedPolls": 0,
+                "closedTabulators": 0,
+                "countinggroups": [
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "1",
+                        "countingGroupName": "Election Day",
+                        "tabulators": 0
+                    },
+                    {
+                        "closedTabulators": 0,
+                        "countingGroupId": "2",
+                        "countingGroupName": "Advance",
+                        "tabulators": 0
+                    }
+                ],
+                "eligibleVoters": 0,
+                "polls": 0,
+                "startedPolls": 0,
+                "tabulators": 0,
+                "turnout": "0%",
+                "turnout2": "0%"
+            }
+        }
+    ],
+    "stats": {
+        "countinggroups": [
+            {
+                "closedTabulators": 147,
+                "countingGroupId": "1",
+                "countingGroupName": "Election Day",
+                "tabulators": 222
+            },
+            {
+                "closedTabulators": 25,
+                "countingGroupId": "2",
+                "countingGroupName": "Advance",
+                "tabulators": 30
+            }
+        ],
+        "eligibleVoters": 361212,
+        "globBallotCast": 80495,
+        "globClosedPolls": 142,
+        "globClosedTabulators": 172,
+        "globPolls": 222,
+        "globStartedPolls": 0,
+        "globTabulators": 252,
+        "globTurnout": "22.28%",
+        "official": "2518",
+        "partyStats": [],
+        "projectName": "City of Hamilton Municipal Election 2018",
+        "timeStamp": "2018-10-22 21:15:11"
+    }
+}

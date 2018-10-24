@@ -36,7 +36,7 @@
         <div style="text-transform: uppercase; padding-bottom:6px; ">{{ ward.race|replace('District School Board','DSB') | replace("Hamilton-Wentworth ","HW") | replace("Catholic ","C") }}</div>
         <button style="font-size: 14px; font-weight: 600;" class="pica-accordion">
             {% if ward.results.isAcclaimed %}
-            {{ leaders[0]['choiceName']|replace("'", "\'")  }} acclaimed
+            {{ leaders[0]['choiceName']|replace("'", "&rsquo;") }} acclaimed
             {% elif leaders[0]["isWinner"] == 1 %}
             {{ leaders[0]['choiceName']|replace("'", "\'")  }} won,
             {{ ward.statistics.closedPolls}}/{{ward.statistics.polls }} polls</button>

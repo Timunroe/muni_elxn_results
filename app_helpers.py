@@ -23,7 +23,6 @@ apis = {
 source = apis
 # SWITCH!
 
-
 def get_data(input, city):
     if 'https' in input:
         temp = app_utils.fetch_data(input)
